@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+dist/config.public.json
+dist/PUBLIC_URL.txt
+
+.gh-token.txt
+.gitee-token.txt
+

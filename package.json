@@ -1,0 +1,16 @@
+{
+  "name": "tvbox-config",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "IPTV-API: crawl public live sources + TVBox config",
+  "scripts": {
+    "start": "node api.mjs",
+    "api": "node api.mjs",
+    "once": "node api-once.mjs",
+    "deploy": "node deploy-public.mjs",
+    "maintain": "node maintain.mjs",
+    "serve": "node serve.mjs",
+    "import": "node import-public.mjs"
+  }
+}

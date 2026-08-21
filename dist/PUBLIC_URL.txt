@@ -1,0 +1,4 @@
+config=https://litter.catbox.moe/s4sg2y.json
+lives=https://litter.catbox.moe/0bvkq2.m3u
+provider_config=litterbox
+provider_lives=litterbox

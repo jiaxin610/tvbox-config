@@ -1,0 +1,18 @@
+{
+  "spider": "",
+  "wallpaper": "",
+  "sites": [],
+  "lives": [
+    {
+      "name": "IPTV-API",
+      "type": 0,
+      "url": "./lives.m3u",
+      "epg": "",
+      "logo": ""
+    }
+  ],
+  "parses": [],
+  "flags": [],
+  "ijk": [],
+  "ads": []
+}

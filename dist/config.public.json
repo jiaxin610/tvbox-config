@@ -1,0 +1,18 @@
+{
+  "spider": "",
+  "wallpaper": "",
+  "sites": [],
+  "lives": [
+    {
+      "name": "IPTV-API",
+      "type": 0,
+      "url": "https://litter.catbox.moe/0bvkq2.m3u",
+      "epg": "",
+      "logo": ""
+    }
+  ],
+  "parses": [],
+  "flags": [],
+  "ijk": [],
+  "ads": []
+}

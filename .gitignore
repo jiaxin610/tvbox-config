@@ -9,4 +9,5 @@ dist/PUBLIC_URL.txt
 
 .gh-token.txt
 .gitee-token.txt
+output/
 

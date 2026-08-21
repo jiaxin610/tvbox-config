@@ -9,6 +9,8 @@
     "api": "node api.mjs",
     "once": "node api-once.mjs",
     "scan": "node api-once.mjs",
+    "parse": "node parse.mjs",
+    "parse:probe": "node parse.mjs --probe",
     "push": "node push-via-api.mjs",
     "publish": "node publish.mjs",
     "scan-publish": "node scan-publish.mjs",

@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-08-21T08:32:38.002Z",
+  "checkedAt": "2026-08-21T08:38:34.039Z",
   "mode": "iptv-scan",
   "subscribeCount": 12,
   "candidates": 395,
   "urlsTotal": 714,
-  "urlsAlive": 710,
-  "urlsDead": 4,
+  "urlsAlive": 709,
+  "urlsDead": 5,
   "channelsAlive": 392,
   "fetchReport": [
     {

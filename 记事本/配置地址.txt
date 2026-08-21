@@ -1,1 +1,1 @@
-https://jiaxin610.github.io/tvbox-config/config.json
+http://127.0.0.1:8080/config.json

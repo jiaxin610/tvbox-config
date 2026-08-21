@@ -1,33 +1,31 @@
 {
-  "checkedAt": "2026-08-21T08:54:14.110Z",
+  "checkedAt": "2026-08-21T09:46:16.188Z",
   "mode": "iptv-scan",
   "subscribeCount": 12,
   "candidates": 395,
   "urlsTotal": 714,
-  "urlsAlive": 710,
-  "urlsDead": 4,
-  "channelsAlive": 392,
+  "urlsAlive": 688,
+  "urlsDead": 26,
+  "channelsAlive": 390,
   "fetchReport": [
     {
       "name": "https://live.zbds.top/tv/iptv4.m3u",
       "url": "https://live.zbds.top/tv/iptv4.m3u",
-      "ok": true,
-      "parsed": 402,
-      "added": 400
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "name": "https://live.zbds.top/tv/iptv4.txt",
       "url": "https://live.zbds.top/tv/iptv4.txt",
-      "ok": true,
-      "parsed": 721,
-      "added": 314
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "ok": true,
       "parsed": 721,
-      "added": 0
+      "added": 714
     },
     {
       "name": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u",
@@ -68,9 +66,8 @@
     {
       "name": "https://live.zbds.top/tv/iptv6.m3u",
       "url": "https://live.zbds.top/tv/iptv6.m3u",
-      "ok": true,
-      "parsed": 1,
-      "added": 0
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "name": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
@@ -85,12 +82,76 @@
       "error": "fetch failed"
     }
   ],
-  "channelCount": 392,
-  "siteCount": 1,
+  "channelCount": 390,
+  "siteCount": 17,
   "sites": [
     {
       "name": "我的片库",
       "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://raw.githubusercontent.com/DRjopper/tvbox/main/231016.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://raw.githubusercontent.com/DRjopper/tvbox/main/final.txt"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://raw.liucn.cc/box/m.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "http://home.jundie.top:81/top98.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "http://ok321.top/ok"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://100km.top/0"
+    },
+    {
+      "name": "我的片库",
+      "api": "http://pt.sxtv.top:66/sx.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://fmbox.cc"
+    },
+    {
+      "name": "我的片库",
+      "api": "http://www.mpanso.com/小米/DEMO.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "http://yuhuahx.com/育华学堂/斧头帮.php"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://www.macms.pro/box/3.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://gitee.com/dongchenliu/liu/raw/master/yb.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://szyyds.cn/tv/x.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://chuanshuo.77blog.cn/tv.json"
+    },
+    {
+      "name": "我的片库",
+      "api": "https://龙伊.top"
     }
   ],
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u"

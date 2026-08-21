@@ -1,0 +1,11 @@
+# 点播站点（每行一个，# 开头忽略）
+# 格式：名称|接口地址
+# 仅填写你有权使用的苹果CMS/自建片库 API，例如：
+# 我的片库|https://cms.example.com/api.php/provide/vod/
+#
+# 不要填写未授权刮削站、网盘盗链聚合地址
+https://pan.quark.cn/s/fbf669ac8114
+
+https://pan.quark.cn/s/57d3b8e526ad
+
+https://pan.quark.cn/s/602cac4651f8 提取码：C2UD

@@ -1,17 +1,19 @@
 #!/usr/bin/env node
 /**
- * IPTV scan once → write GitHub Pages dist/
+ * IPTV scan + VOD sites → write GitHub Pages dist/
  */
 import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { scanIptvSubscriptions } from "./lib/collect.mjs";
 import { buildM3u } from "./lib/m3u.mjs";
+import { parseSitesTxt, normalizeSites, probeSite } from "./lib/sites.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DIST = join(ROOT, "dist");
 const PAGES_BASE =
   process.env.PAGES_BASE || "https://jiaxin610.github.io/tvbox-config";
+const PROBE_SITES = process.env.PROBE_SITES === "1";
 
 function parseSubscribeTxt(text) {
   return text
@@ -35,13 +37,12 @@ const subscribe = [
   ...fromFile.map((url) => ({ name: url, url, enabled: true })),
 ];
 
-// de-dupe by url
-const seen = new Set();
+const seenSub = new Set();
 const merged = [];
 for (const s of subscribe) {
   const url = typeof s === "string" ? s : s.url;
-  if (!url || seen.has(url)) continue;
-  seen.add(url);
+  if (!url || seenSub.has(url)) continue;
+  seenSub.add(url);
   merged.push(typeof s === "string" ? { url, name: url, enabled: true } : s);
 }
 
@@ -52,11 +53,40 @@ const config = {
   playlists: [],
 };
 
+// ---- VOD sites ----
+let sitesRaw = [];
+try {
+  const sj = JSON.parse(await readFile(join(ROOT, "sources", "sites.json"), "utf8"));
+  sitesRaw = Array.isArray(sj.sites) ? sj.sites : [];
+} catch {
+  /* optional */
+}
+try {
+  const st = await readFile(join(ROOT, "sources", "sites.txt"), "utf8");
+  for (const row of parseSitesTxt(st)) sitesRaw.push(row);
+} catch {
+  /* optional */
+}
+let sites = normalizeSites(sitesRaw);
+
+if (PROBE_SITES && sites.length) {
+  console.log(`[sites] probing ${sites.length} ...`);
+  const kept = [];
+  for (const s of sites) {
+    const r = await probeSite(s.api);
+    console.log(`[sites] ${s.name} -> ${r.ok ? "ok" : r.reason}`);
+    if (r.ok) kept.push(s);
+  }
+  sites = kept;
+}
+
 console.log(`[once] IPTV scan subscribe=${merged.length}`);
+console.log(`[once] VOD sites=${sites.length}`);
 if (!merged.length) {
-  console.warn(
-    "[once] 没有订阅地址。请在 sources/subscribe.txt 写入你的 IPTV 订阅 URL。",
-  );
+  console.warn("[once] 没有直播订阅：编辑 sources/subscribe.txt");
+}
+if (!sites.length) {
+  console.warn("[once] 没有点播站点：编辑 sources/sites.txt （名称|接口）");
 }
 
 const { channels, meta } = await scanIptvSubscriptions(config, {
@@ -72,7 +102,7 @@ await writeFile(
     {
       spider: "",
       wallpaper: "",
-      sites: [],
+      sites,
       lives: [
         {
           name: "IPTV扫描",
@@ -94,8 +124,17 @@ await writeFile(
 );
 await writeFile(
   join(DIST, "status.json"),
-  JSON.stringify({ ...meta, channelCount: channels.length, livesUrl }, null, 2) +
-    "\n",
+  JSON.stringify(
+    {
+      ...meta,
+      channelCount: channels.length,
+      siteCount: sites.length,
+      sites: sites.map((s) => ({ name: s.name, api: s.api })),
+      livesUrl,
+    },
+    null,
+    2,
+  ) + "\n",
   "utf8",
 );
 await writeFile(
@@ -116,13 +155,17 @@ await writeFile(
   "utf8",
 );
 await writeFile(
+  join(ROOT, "sources", "sites.json"),
+  JSON.stringify({ sites }, null, 2) + "\n",
+  "utf8",
+);
+await writeFile(
   join(DIST, "index.html"),
-  `<!doctype html><meta charset="utf-8"><title>IPTV扫描</title>
+  `<!doctype html><meta charset="utf-8"><title>TVBox Config</title>
 <p>配置：<a href="./config.json">${PAGES_BASE}/config.json</a></p>
-<p>直播：<a href="./lives.m3u">${livesUrl}</a></p>
-<p>扫描结果频道数：${channels.length}</p>
+<p>直播：${channels.length}　点播站点：${sites.length}</p>
 `,
   "utf8",
 );
 
-console.log(`[once] done channels=${channels.length}`);
+console.log(`[once] done live=${channels.length} vod_sites=${sites.length}`);

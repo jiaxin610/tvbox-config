@@ -1,42 +1,22 @@
-# IPTV-API / TVBox 配置
+# TVBox IPTV 扫描配置
 
-从公开播放列表抓取直播源 → 探测可用性 → 提供 M3U / JSON / TVBox 接口。
+已改为 **IPTV 订阅扫描**（不再内置之前那些公开免费演示源）。
 
-## 启动
+## 使用
+
+1. 编辑 `sources/subscribe.txt`，每行一个你有权使用的订阅地址（m3u / txt）
+2. 运行：
 
 ```bash
-npm start
+npm run once
 ```
 
-默认端口 `8787`（可用环境变量 `PORT` 修改）。
+3. 推送到 GitHub 后，Actions 会按同样逻辑扫描并更新 Pages
 
-## TVBox 配置地址
+## 配置地址
 
 ```text
-http://电脑IP:8787/tvbox/config.json
+https://jiaxin610.github.io/tvbox-config/config.json
 ```
 
-## API
-
-| 路径 | 说明 |
-|------|------|
-| `GET /` | 接口索引 |
-| `GET /api/status` | 最近一次抓取统计 |
-| `GET /api/upstreams` | 上游公开列表配置 |
-| `GET /api/channels?q=&group=` | 频道 JSON |
-| `GET /api/m3u` | 直播 M3U |
-| `GET /api/txt` | 直播 TXT |
-| `GET /api/refresh` | 立即重新抓取并探测 |
-| `GET /tvbox/config.json` | TVBox 配置 |
-| `GET /lives.m3u` | 直播列表 |
-
-## 配置上游
-
-编辑 `sources/upstreams.json`：
-
-- `playlists`：公开 M3U 地址（可增删）
-- `seed`：始终优先保留的频道
-- `maxCandidates`：探测上限
-- `refreshHours`：自动刷新间隔
-
-只收录公开列表；会过滤纯 IP 主机等常见未授权镜像特征。请只使用你有权访问的流。
+扫描逻辑：拉取订阅 → 解析 M3U/TXT → 多线路合并 → 探测可用 → 按延迟保留。

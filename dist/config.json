@@ -4,7 +4,7 @@
   "sites": [],
   "lives": [
     {
-      "name": "IPTV直播",
+      "name": "IPTV扫描",
       "type": 0,
       "url": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
       "epg": "",

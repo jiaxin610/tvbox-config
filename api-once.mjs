@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 /**
- * One-shot crawl for CI / static hosting.
- * Writes absolute lives URL so TVBox can load GitHub Pages correctly.
+ * IPTV scan once → write GitHub Pages dist/
  */
 import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { collectPublicChannels } from "./lib/collect.mjs";
+import { scanIptvSubscriptions } from "./lib/collect.mjs";
 import { buildM3u } from "./lib/m3u.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
@@ -14,43 +13,55 @@ const DIST = join(ROOT, "dist");
 const PAGES_BASE =
   process.env.PAGES_BASE || "https://jiaxin610.github.io/tvbox-config";
 
+function parseSubscribeTxt(text) {
+  return text
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter((l) => l && !l.startsWith("#") && /^https?:\/\//i.test(l));
+}
+
 const raw = JSON.parse(await readFile(join(ROOT, "sources", "upstreams.json"), "utf8"));
+let fromFile = [];
+try {
+  fromFile = parseSubscribeTxt(
+    await readFile(join(ROOT, "sources", "subscribe.txt"), "utf8"),
+  );
+} catch {
+  /* optional */
+}
+
+const subscribe = [
+  ...(Array.isArray(raw.subscribe) ? raw.subscribe : []),
+  ...fromFile.map((url) => ({ name: url, url, enabled: true })),
+];
+
+// de-dupe by url
+const seen = new Set();
+const merged = [];
+for (const s of subscribe) {
+  const url = typeof s === "string" ? s : s.url;
+  if (!url || seen.has(url)) continue;
+  seen.add(url);
+  merged.push(typeof s === "string" ? { url, name: url, enabled: true } : s);
+}
+
 const config = {
   ...raw,
-  userAgent: raw.userAgent || "iptv-api/1.0",
-  maxCandidates: raw.maxCandidates ?? 250,
-  blockHostPattern: raw.blockHostPattern || "",
-  probeConcurrency: raw.probeConcurrency ?? 16,
-  probeTimeoutMs: raw.probeTimeoutMs ?? 8000,
-  playlists: raw.playlists || [],
-  seed: raw.seed || [],
+  subscribe: merged,
+  seed: [],
+  playlists: [],
 };
 
-console.log("[once] crawling public playlists…");
-let channels = [];
-let meta = { checkedAt: new Date().toISOString(), channelsAlive: 0 };
-try {
-  const result = await collectPublicChannels(config, {
-    onLog: (m) => console.log(`[crawl] ${m}`),
-  });
-  channels = result.channels;
-  meta = result.meta;
-} catch (err) {
-  console.error("[once] crawl failed:", err.message || err);
+console.log(`[once] IPTV scan subscribe=${merged.length}`);
+if (!merged.length) {
+  console.warn(
+    "[once] 没有订阅地址。请在 sources/subscribe.txt 写入你的 IPTV 订阅 URL。",
+  );
 }
 
-// Fallback: if probe wiped everything, keep seed URLs so config is not empty
-if (!channels.length && Array.isArray(config.seed) && config.seed.length) {
-  console.warn("[once] no alive channels — falling back to seed");
-  channels = config.seed.map((s) => ({
-    name: s.name,
-    group: s.group || "演示",
-    urls: s.urls || [],
-    logo: s.logo || "",
-    tvgId: s.tvgId || "",
-  }));
-  meta = { ...meta, fallback: "seed", channelsAlive: channels.length };
-}
+const { channels, meta } = await scanIptvSubscriptions(config, {
+  onLog: (m) => console.log(`[scan] ${m}`),
+});
 
 await mkdir(DIST, { recursive: true });
 const livesUrl = `${PAGES_BASE.replace(/\/$/, "")}/lives.m3u`;
@@ -64,7 +75,7 @@ await writeFile(
       sites: [],
       lives: [
         {
-          name: "IPTV直播",
+          name: "IPTV扫描",
           type: 0,
           url: livesUrl,
           epg: "",
@@ -83,19 +94,35 @@ await writeFile(
 );
 await writeFile(
   join(DIST, "status.json"),
-  JSON.stringify({ ...meta, channelCount: channels.length, livesUrl }, null, 2) + "\n",
+  JSON.stringify({ ...meta, channelCount: channels.length, livesUrl }, null, 2) +
+    "\n",
+  "utf8",
+);
+await writeFile(
+  join(ROOT, "sources", "lives.json"),
+  JSON.stringify(
+    {
+      channels: channels.map(({ name, group, urls, logo, tvgId }) => ({
+        name,
+        group,
+        urls,
+        logo,
+        tvgId,
+      })),
+    },
+    null,
+    2,
+  ) + "\n",
   "utf8",
 );
 await writeFile(
   join(DIST, "index.html"),
-  `<!doctype html><meta charset="utf-8"><title>IPTV-API</title>
-<p>TVBox 配置地址：</p>
-<p><a href="./config.json">${PAGES_BASE}/config.json</a></p>
-<p>直播列表：<a href="./lives.m3u">${livesUrl}</a></p>
-<p>频道数：${channels.length}</p>
+  `<!doctype html><meta charset="utf-8"><title>IPTV扫描</title>
+<p>配置：<a href="./config.json">${PAGES_BASE}/config.json</a></p>
+<p>直播：<a href="./lives.m3u">${livesUrl}</a></p>
+<p>扫描结果频道数：${channels.length}</p>
 `,
   "utf8",
 );
 
-console.log(`[once] done alive=${channels.length} livesUrl=${livesUrl}`);
-if (!channels.length) process.exit(2);
+console.log(`[once] done channels=${channels.length}`);

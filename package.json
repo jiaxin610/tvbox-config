@@ -9,9 +9,10 @@
     "api": "node api.mjs",
     "once": "node api-once.mjs",
     "scan": "node api-once.mjs",
+    "push": "node push-via-api.mjs",
+    "publish": "node scan-publish.mjs",
     "deploy": "node deploy-public.mjs",
     "maintain": "node maintain.mjs",
-    "serve": "node serve.mjs",
-    "push": "node push-via-api.mjs"
+    "serve": "node serve.mjs"
   }
 }

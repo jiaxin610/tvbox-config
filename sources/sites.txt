@@ -1,7 +1,6 @@
 # 点播站点（每行一个，# 开头忽略）
 # 格式：名称|接口地址
-# 仅填写你有权使用的苹果CMS/自建片库 API，例如：
-# 我的片库|https://cms.example.com/api.php/provide/vod/
+# 示例：我的片库|https://cms.example.com/api.php/provide/vod/
 #
-# 不要填写未授权刮削站、网盘盗链聚合地址
-https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/
+# 注意：必须带「名称|」，只写网址会被跳过，日志会显示 VOD sites=0
+我的片库|https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/

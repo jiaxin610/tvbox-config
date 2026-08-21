@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-08-21T08:50:59.622Z",
+  "checkedAt": "2026-08-21T08:54:14.110Z",
   "mode": "iptv-scan",
   "subscribeCount": 12,
   "candidates": 395,
   "urlsTotal": 714,
-  "urlsAlive": 709,
-  "urlsDead": 5,
+  "urlsAlive": 710,
+  "urlsDead": 4,
   "channelsAlive": 392,
   "fetchReport": [
     {
@@ -86,7 +86,12 @@
     }
   ],
   "channelCount": 392,
-  "siteCount": 0,
-  "sites": [],
+  "siteCount": 1,
+  "sites": [
+    {
+      "name": "我的片库",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/"
+    }
+  ],
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u"
 }

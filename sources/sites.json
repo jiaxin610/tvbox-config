@@ -1,3 +1,13 @@
 {
-  "sites": []
+  "sites": [
+    {
+      "key": "我的片库",
+      "name": "我的片库",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filter": 1
+    }
+  ]
 }

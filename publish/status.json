@@ -1,25 +1,25 @@
 {
-  "checkedAt": "2026-08-24T06:50:52.288Z",
+  "checkedAt": "2026-08-24T06:58:27.434Z",
   "mode": "iptv-wishlist",
   "subscribeCount": 9,
-  "wishlistCount": 50,
-  "wishlistMatched": 50,
+  "wishlistCount": 60,
+  "wishlistMatched": 100,
   "candidates": 500,
-  "urlsTotal": 1281,
-  "urlsAlive": 757,
-  "urlsDead": 524,
-  "channelsAlive": 50,
-  "maxLatencyMs": 2800,
+  "urlsTotal": 1246,
+  "urlsAlive": 735,
+  "urlsDead": 511,
+  "channelsAlive": 100,
+  "maxLatencyMs": 3200,
   "maxAliveChannels": 100,
   "prefer4K": true,
-  "fourKCount": 5,
+  "fourKCount": 4,
   "fetchReport": [
     {
       "name": "local",
       "url": "local",
       "ok": true,
-      "parsed": 451,
-      "added": 377
+      "parsed": 0,
+      "added": 0
     },
     {
       "name": "https://live.zbds.top/tv/iptv4.m3u",
@@ -78,14 +78,15 @@
       "added": 115
     },
     {
-      "name": "https://github.com/jia070310/4K-IPTV-M3U",
-      "url": "https://github.com/jia070310/4K-IPTV-M3U",
-      "ok": false,
-      "error": "fetch failed"
+      "name": "https://live.hacks.tools/tv/ipv6/categories/央视频道.m3u",
+      "url": "https://live.hacks.tools/tv/ipv6/categories/央视频道.m3u",
+      "ok": true,
+      "parsed": 1,
+      "added": 1
     }
   ],
-  "channelCount": 50,
+  "channelCount": 100,
   "siteCount": 66,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T06:50:52.295Z"
+  "builtAt": "2026-08-24T06:58:27.451Z"
 }

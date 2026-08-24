@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-08-24T03:57:02.940Z",
+  "checkedAt": "2026-08-24T03:58:13.712Z",
   "mode": "iptv-scan",
-  "subscribeCount": 12,
+  "subscribeCount": 13,
   "candidates": 200,
   "urlsTotal": 304,
-  "urlsAlive": 295,
-  "urlsDead": 9,
+  "urlsAlive": 294,
+  "urlsDead": 10,
   "channelsAlive": 120,
   "maxLatencyMs": 2500,
   "maxAliveChannels": 120,
@@ -85,10 +85,16 @@
       "url": "https://raw.githubusercontent.com/whpsky/iptv/main/chinatv.m3u",
       "ok": false,
       "error": "fetch failed"
+    },
+    {
+      "name": "https://Guovin/iptv-api",
+      "url": "https://Guovin/iptv-api",
+      "ok": false,
+      "error": "fetch failed"
     }
   ],
   "channelCount": 120,
   "siteCount": 58,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T03:57:02.943Z"
+  "builtAt": "2026-08-24T03:58:13.717Z"
 }

@@ -3,20 +3,5 @@
 # 示例：我的片库|https://cms.example.com/api.php/provide/vod/
 #
 # 注意：必须带「名称|」，只写网址会被跳过，日志会显示 VOD sites=0
-我的片库|https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/
-我的片库|https://raw.githubusercontent.com/DRjopper/tvbox/main/231016.json
-我的片库|https://raw.githubusercontent.com/DRjopper/tvbox/main/final.txt
-我的片库|https://raw.liucn.cc/box/m.json
-我的片库|https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json
-我的片库|http://home.jundie.top:81/top98.json
-我的片库|http://ok321.top/ok
-我的片库|https://100km.top/0
-我的片库|http://pt.sxtv.top:66/sx.json
-我的片库|https://fmbox.cc
-我的片库|http://www.mpanso.com/小米/DEMO.json
-我的片库|http://yuhuahx.com/育华学堂/斧头帮.php
-我的片库|https://www.macms.pro/box/3.json
-我的片库|https://gitee.com/dongchenliu/liu/raw/master/yb.json
-我的片库|https://szyyds.cn/tv/x.json
-我的片库|https://chuanshuo.77blog.cn/tv.json
-我的片库|https://龙伊.top
+光速|https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/
+

@@ -29,8 +29,8 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Crawl public sources & probe
-        run: node api-once.mjs
+      - name: Build publish/
+        run: node publish.mjs --build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -38,7 +38,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: publish
 
       - name: Deploy to GitHub Pages
         id: deployment

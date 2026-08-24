@@ -9,25 +9,17 @@ http://8.138.7.223/tv/jsws4k.php
 http://8.138.7.223/tv/api.php?id=hnws4k
 #EXTINF:-1 tvg-id="27" tvg-logo="https://tb.zbds.top/logo/CCTV1.png" group-title="央视频道",CCTV1 高清
 http://74.91.26.218:82/live/cctv1hd.m3u8
-#EXTINF:-1 tvg-id="CCTV2.cn@SD" group-title="央视频道",CCTV-2 高清
-http://173.208.212.130:8181/1080p/cctv2.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视频道",CCTV-3 高清
-http://173.208.212.130:8181/1080p/cctv3.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视频道",CCTV-4 高清
-http://173.208.212.130:8181/1080p/cctv4.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视频道",CCTV-6 高清
-http://173.208.212.130:8181/1080p/cctv6.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视频道",CCTV-9 高清
 https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 tvg-id="28" tvg-logo="https://tb.zbds.top/logo/CCTV12.png" group-title="央视频道",CCTV12 高清
-http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV-13 (1080p)
 http://221.7.175.154:8445/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视频道",CCTV-13 (1080p)
 http://113.25.252.226:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="浙江卫视" tvg-logo="https://tb.zbds.top/logo/浙江卫视.png" group-title="卫视频道",浙江卫视 高清
-http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视频道",CCTV-15 高清
+http://173.208.212.130:8181/1080p/cctv15.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-logo="https://tb.zbds.top/logo/浙江卫视.png" group-title="卫视频道",浙江卫视 高清
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江卫视" tvg-logo="https://tb.zbds.top/logo/浙江卫视.png" group-title="卫视频道",浙江卫视 高清
+http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 tvg-id="9" tvg-logo="https://tb.zbds.top/logo/深圳卫视.png" group-title="卫视频道",深圳卫视 高清
 http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8

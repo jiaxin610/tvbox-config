@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-24T04:15:03.408Z",
+  "checkedAt": "2026-08-24T04:33:49.364Z",
   "mode": "iptv-wishlist",
   "subscribeCount": 13,
   "wishlistCount": 49,
-  "wishlistMatched": 22,
+  "wishlistMatched": 19,
   "candidates": 200,
-  "urlsTotal": 304,
-  "urlsAlive": 295,
-  "urlsDead": 9,
-  "channelsAlive": 22,
+  "urlsTotal": 232,
+  "urlsAlive": 231,
+  "urlsDead": 1,
+  "channelsAlive": 19,
   "maxLatencyMs": 2500,
   "maxAliveChannels": 120,
   "fetchReport": [
@@ -16,21 +16,21 @@
       "name": "https://live.zbds.top/tv/iptv4.m3u",
       "url": "https://live.zbds.top/tv/iptv4.m3u",
       "ok": true,
-      "parsed": 479,
-      "added": 399
+      "parsed": 453,
+      "added": 371
     },
     {
       "name": "https://live.zbds.top/tv/iptv4.txt",
       "url": "https://live.zbds.top/tv/iptv4.txt",
       "ok": true,
-      "parsed": 779,
-      "added": 138
+      "parsed": 691,
+      "added": 50
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "ok": true,
-      "parsed": 779,
+      "parsed": 691,
       "added": 0
     },
     {
@@ -95,8 +95,8 @@
       "error": "fetch failed"
     }
   ],
-  "channelCount": 22,
+  "channelCount": 19,
   "siteCount": 58,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T04:15:03.412Z"
+  "builtAt": "2026-08-24T04:33:49.374Z"
 }

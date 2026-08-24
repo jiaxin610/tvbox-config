@@ -1,4 +1,2 @@
 # 可选：自定义爬虫 JAR 地址（http/https）
-# 留空则按首页推荐站自动匹配；首页为 csp_DouDouGuard 时用 szyyds 的 jar
-#
-# https://szyyds.cn/tv/x.jpg
+# 留空则按首页推荐站自动匹配

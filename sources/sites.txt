@@ -1,3 +1,5 @@
 # 点播 CMS（可选；首页站已改为 TOP 单仓推荐）
 # 格式：名称|接口地址
 # 光速|https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/
+TOP1|https://api.guangsuapi.com/api.php/provide/vod/at/xml/
+TOP2|https://www.feisuzyapi.com/api.php/provide/vod/

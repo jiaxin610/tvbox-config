@@ -1,15 +1,56 @@
 {
   "spider": "./jar/top98_1.jar",
-  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
+  "wallpaper": "https://picsum.photos/1920/1080",
   "sites": [
     {
-      "key": "光速",
-      "name": "光速",
+      "key": "推荐_光速",
+      "name": "推荐┃光速",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xmlsea/",
       "searchable": 1,
       "quickSearch": 1,
-      "filter": 1
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
+    },
+    {
+      "key": "DouBan",
+      "name": "[szyyds]免费分享",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1
     },
     {
       "key": "360",
@@ -119,7 +160,8 @@
       "name": "[jundie]低端影视(DRPY)",
       "type": 3,
       "api": "http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js",
-      "ext": "http://home.jundie.top:666/JS/dr_py/js/ddys.js"
+      "ext": "http://home.jundie.top:666/JS/dr_py/js/ddys.js",
+      "filterable": 1
     },
     {
       "key": "Gitcafe",
@@ -185,16 +227,6 @@
       "ext": "token;desc"
     },
     {
-      "key": "DouBan",
-      "name": "[szyyds]免费分享",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "我的云盘",
       "name": "[szyyds]🗂我的云盘┃我配置",
       "type": 3,
@@ -207,7 +239,8 @@
       },
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
+      },
+      "filterable": 1
     },
     {
       "key": "应用商店",
@@ -217,7 +250,8 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "https://szyyds.cn/js/app.json",
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"
+      "jar": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar",
+      "filterable": 1
     },
     {
       "key": "push_agent_1",
@@ -241,7 +275,38 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "playerType": 2
+      "playerType": 2,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "天涯采集",
@@ -256,7 +321,38 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "playerType": 2
+      "playerType": 2,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "量子",
@@ -290,7 +386,9 @@
         "欧美动漫",
         "港台动漫",
         "海外动漫"
-      ]
+      ],
+      "filter": 1,
+      "quickSearch": 1
     },
     {
       "key": "非凡",
@@ -324,7 +422,9 @@
         "欧美动漫",
         "港台动漫",
         "海外动漫"
-      ]
+      ],
+      "filter": 1,
+      "quickSearch": 1
     },
     {
       "key": "索尼",
@@ -359,7 +459,9 @@
         "港台动漫",
         "海外动漫",
         "影视解说"
-      ]
+      ],
+      "filter": 1,
+      "quickSearch": 1
     },
     {
       "key": "极速资源",
@@ -402,7 +504,9 @@
       ],
       "header": {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-      }
+      },
+      "filter": 1,
+      "quickSearch": 1
     },
     {
       "key": "建安采集",
@@ -417,7 +521,38 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "playerType": 2
+      "playerType": 2,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "率率",
@@ -445,7 +580,8 @@
         "欧美动漫",
         "大陆综艺",
         "日韩综艺"
-      ]
+      ],
+      "filter": 1
     },
     {
       "key": "百度",
@@ -471,7 +607,9 @@
       ],
       "header": {
         "User-Agent": "Mozilla/5.0"
-      }
+      },
+      "filter": 1,
+      "quickSearch": 1
     },
     {
       "key": "暴風",
@@ -479,14 +617,47 @@
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filter": 1,
+      "quickSearch": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "AQY",
       "name": "[szyyds]爱奇艺",
       "type": 3,
       "api": "https://szyyds.cn/js/6F02.js",
-      "ext": "https://szyyds.cn/js/3c16.js"
+      "ext": "https://szyyds.cn/js/3c16.js",
+      "filterable": 1
     },
     {
       "key": "玩偶",
@@ -499,14 +670,16 @@
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
+      },
+      "filterable": 1
     },
     {
       "key": "huban",
       "name": "[szyyds]弹幕|小窗",
       "type": 3,
       "jar": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/jar/HubanTC.jar",
-      "api": "csp_Huban"
+      "api": "csp_Huban",
+      "filterable": 1
     },
     {
       "key": "电影天堂_1",
@@ -517,7 +690,38 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "timeout": 10
+      "timeout": 10,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "dr_兔小贝",
@@ -531,7 +735,8 @@
       },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0
+      "changeable": 0,
+      "filterable": 1
     },
     {
       "key": "少儿教育",
@@ -547,7 +752,8 @@
       "changeable": 0,
       "ext": {
         "json": "https://szyyds.cn/tv/jx/shaoer.txt"
-      }
+      },
+      "filterable": 1
     },
     {
       "key": "YGP",
@@ -556,7 +762,8 @@
       "api": "csp_YGPGuard",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0
+      "changeable": 0,
+      "filterable": 1
     },
     {
       "key": "MTV1",
@@ -570,7 +777,8 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
-      "changeable": 0
+      "changeable": 0,
+      "filterable": 1
     },
     {
       "key": "Dm84",
@@ -580,7 +788,8 @@
       "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "Anime1",
@@ -590,7 +799,8 @@
       "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "新6V",
@@ -601,7 +811,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://www.xb6v.com/"
+      "ext": "https://www.xb6v.com/",
+      "filterable": 1
     },
     {
       "key": "荐片",
@@ -612,7 +823,8 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 0,
+      "filterable": 1
     },
     {
       "key": "厂长",
@@ -623,7 +835,8 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "文采",
@@ -634,7 +847,8 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "原创",
@@ -645,7 +859,8 @@
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "比特",
@@ -655,7 +870,8 @@
       "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "糯米",
@@ -665,7 +881,8 @@
       "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "热播",
@@ -677,7 +894,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "uqGL1bNENExT7/hGxpSE5qU="
+      "ext": "uqGL1bNENExT7/hGxpSE5qU=",
+      "filterable": 1
     },
     {
       "key": "剧圈",
@@ -688,7 +906,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"
+      "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
+      "filterable": 1
     },
     {
       "key": "奥特",
@@ -698,7 +917,8 @@
       "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "filterable": 1
     },
     {
       "key": "量子资源",
@@ -706,7 +926,38 @@
       "type": 1,
       "api": "http://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "红牛资源",
@@ -714,7 +965,38 @@
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "闪电资源",
@@ -722,7 +1004,38 @@
       "type": 1,
       "api": "http://sdzyapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "光速资源",
@@ -730,7 +1043,38 @@
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "新浪资源",
@@ -738,7 +1082,38 @@
       "type": 1,
       "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filter": 1,
+      "categories": [
+        "热门电影",
+        "热播剧集",
+        "热门动漫",
+        "热播综艺",
+        "电视剧榜单",
+        "电影",
+        "连续剧",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫"
+      ]
     },
     {
       "key": "秒看",
@@ -753,7 +1128,8 @@
         "dataIv": "c60d88b2eep53za8",
         "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
         "ua": "okhttp/3.10.0"
-      }
+      },
+      "filterable": 1
     },
     {
       "key": "还行",
@@ -763,7 +1139,8 @@
       "api": "csp_AppYs",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": "http://m51.gotto.top/api.php/v1.vod"
+      "ext": "http://m51.gotto.top/api.php/v1.vod",
+      "filterable": 1
     },
     {
       "key": "超全",
@@ -775,7 +1152,8 @@
       "changeable": 0,
       "style": {
         "type": "list"
-      }
+      },
+      "filterable": 1
     },
     {
       "key": "看球",
@@ -787,7 +1165,8 @@
       "changeable": 0,
       "style": {
         "type": "list"
-      }
+      },
+      "filterable": 1
     },
     {
       "key": "Aid",
@@ -800,7 +1179,8 @@
       "style": {
         "type": "rect",
         "ratio": 3.8
-      }
+      },
+      "filterable": 1
     },
     {
       "key": "88",
@@ -812,7 +1192,8 @@
       "changeable": 0,
       "style": {
         "type": "list"
-      }
+      },
+      "filterable": 1
     }
   ],
   "lives": [

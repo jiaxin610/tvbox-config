@@ -10,9 +10,10 @@
   "allowIpHost": true,
   "skipHeavyQuality": false,
   "prefer4K": true,
+  "minQuality": 2,
   "preferChinese": true,
   "preferNonIp": true,
-  "wishlistOnly": false,
+  "wishlistOnly": true,
   "keepLocalOnFail": false,
   "blockHostPattern": "^localhost$|\\.local$",
   "subscribe": [

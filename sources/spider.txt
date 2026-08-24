@@ -1,6 +1,6 @@
 # 可选：自定义爬虫 JAR 地址（http/https）
-# 发布时会下载到 publish/jar/spider.jar，用 GitHub Pages 地址加载，避免盒子打不开外站
-# 留空则自动从单仓解析；解析失败则不写 spider（不再报 JAR 加载失败）
+# 发布时会下载到 publish/jar/spider.jar，用 GitHub Pages 地址加载
+# 留空则自动从单仓解析第一个可用的 spider
 #
-# 示例：
-# https://example.com/custom_spider.jar
+# jundie top98 备用（单仓解析失败时用）
+http://home.jundie.top:81/jar/top98_1.jar

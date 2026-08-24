@@ -1,11 +1,11 @@
 name: Deploy IPTV to GitHub Pages
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - "publish/**"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -25,17 +25,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-
-      - name: Build publish/
-        run: node publish.mjs --build
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload publish/
         uses: actions/upload-pages-artifact@v3
         with:
           path: publish

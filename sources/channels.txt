@@ -1,8 +1,9 @@
 # 频道愿望清单（iptv-api 的 source_file / demo.txt）
 # 定时任务只输出清单里的频道；清晰度：仅高清(1080)与 4K（minQuality=2）
 # 测速会嗅探 m3u8 的 RESOLUTION=1920x1080 / 3840x2160
+# 央视 + 卫视 同一分组「央卫视」；清单顺序 = 搜台顺序
 #
-央视,#genre#
+央卫视,#genre#
 CCTV-1
 CCTV-2
 CCTV-3
@@ -23,7 +24,6 @@ CCTV-16
 CCTV-17
 CCTV-4K
 
-卫视,#genre#
 北京卫视
 东方卫视
 湖南卫视

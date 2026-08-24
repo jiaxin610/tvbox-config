@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-08-24T08:14:27.689Z",
+  "checkedAt": "2026-08-24T08:23:23.208Z",
   "mode": "iptv-wishlist",
   "subscribeCount": 8,
   "wishlistCount": 52,
   "wishlistMatched": 28,
   "candidates": 800,
   "urlsTotal": 1578,
-  "urlsAlive": 763,
-  "urlsDead": 815,
+  "urlsAlive": 843,
+  "urlsDead": 735,
   "channelsAlive": 28,
   "maxLatencyMs": 3500,
   "maxAliveChannels": 120,
@@ -16,13 +16,6 @@
   "fourKCount": 6,
   "hdCount": 22,
   "fetchReport": [
-    {
-      "name": "local",
-      "url": "local",
-      "ok": true,
-      "parsed": 0,
-      "added": 0
-    },
     {
       "name": "https://live.zbds.top/tv/iptv4.m3u",
       "url": "https://live.zbds.top/tv/iptv4.m3u",
@@ -83,5 +76,5 @@
   "channelCount": 28,
   "siteCount": 68,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T08:14:27.694Z"
+  "builtAt": "2026-08-24T08:23:23.211Z"
 }

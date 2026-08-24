@@ -10,6 +10,7 @@
   "allowIpHost": false,
   "skipHeavyQuality": true,
   "preferChinese": true,
+  "wishlistOnly": true,
   "blockHostPattern": "^localhost$|\\.local$",
   "subscribe": [],
   "seed": []

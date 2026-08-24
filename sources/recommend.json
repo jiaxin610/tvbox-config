@@ -1,7 +1,6 @@
 {
-  "title": "光速",
-  "homeSitePattern": "光速|guangsuapi|推荐_光速",
-  "homeRecPattern": "DouBan|DouDou|豆瓣|免费分享",
+  "title": "TOP",
+  "homeSitePattern": "\\[TOP\\]|nxog|Nostr|豆瓣|Douban|首页推荐|csp_Douban",
   "wallpaper": "https://picsum.photos/1920/1080",
   "homeCategories": [
     "热门电影",
@@ -35,5 +34,5 @@
     "日韩动漫",
     "欧美动漫"
   ],
-  "preferNamePattern": "光速|推荐|热门|榜单|douban|首页"
+  "preferNamePattern": "TOP|推荐|热门|榜单|douban|首页|豆瓣"
 }

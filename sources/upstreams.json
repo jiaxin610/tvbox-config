@@ -1,17 +1,23 @@
 {
-  "userAgent": "iptv-scan/1.0",
-  "maxCandidates": 800,
-  "maxAliveChannels": 400,
-  "maxLatencyMs": 5000,
+  "userAgent": "okhttp/4.12.0",
+  "maxCandidates": 400,
+  "maxAliveChannels": 80,
+  "maxLatencyMs": 1800,
   "keepPerChannel": 1,
-  "probeConcurrency": 32,
-  "probeTimeoutMs": 8000,
+  "probeConcurrency": 40,
+  "probeTimeoutMs": 4500,
   "refreshHours": 6,
   "allowIpHost": true,
   "skipHeavyQuality": true,
   "preferChinese": true,
-  "wishlistOnly": false,
+  "preferNonIp": true,
+  "wishlistOnly": true,
+  "keepLocalOnFail": false,
   "blockHostPattern": "^localhost$|\\.local$",
-  "subscribe": [],
+  "subscribe": [
+    "https://live.zbds.top/tv/iptv4.m3u",
+    "https://live.zbds.top/tv/iptv4.txt",
+    "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt"
+  ],
   "seed": []
 }

@@ -5,15 +5,6 @@
 # 示例：
 # https://example.com/my-iptv.m3u
 # http://你的运营商或自建订阅/live.txt
-https://live.zbds.top/tv/iptv4.m3u
-https://live.zbds.top/tv/iptv4.txt
-https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
-https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u
-https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u
-https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u
-https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-https://live.fanmingming.cn/tv/m3u/ipv6.m3u
-https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
-https://live.zbds.top/tv/iptv6.m3u
-https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
-https://raw.githubusercontent.com/whpsky/iptv/main/chinatv.m3u
+https://github.com/HerbertHe/iptv-sources
+https://github.com/fanmingming/live
+https://github.com/ssili126/tv

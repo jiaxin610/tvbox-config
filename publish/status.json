@@ -1,96 +1,38 @@
 {
-  "checkedAt": "2026-08-24T05:12:11.980Z",
+  "checkedAt": "2026-08-24T05:14:02.284Z",
   "mode": "iptv-wishlist",
-  "subscribeCount": 12,
+  "subscribeCount": 3,
   "wishlistCount": 49,
-  "wishlistMatched": 19,
-  "candidates": 200,
-  "urlsTotal": 232,
-  "urlsAlive": 229,
-  "urlsDead": 3,
-  "channelsAlive": 19,
+  "wishlistMatched": 0,
+  "candidates": 0,
+  "urlsTotal": 0,
+  "urlsAlive": 0,
+  "urlsDead": 0,
+  "channelsAlive": 0,
   "maxLatencyMs": 2500,
   "maxAliveChannels": 120,
   "fetchReport": [
     {
-      "name": "https://live.zbds.top/tv/iptv4.m3u",
-      "url": "https://live.zbds.top/tv/iptv4.m3u",
-      "ok": true,
-      "parsed": 453,
-      "added": 371
-    },
-    {
-      "name": "https://live.zbds.top/tv/iptv4.txt",
-      "url": "https://live.zbds.top/tv/iptv4.txt",
-      "ok": true,
-      "parsed": 691,
-      "added": 50
-    },
-    {
-      "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
-      "ok": true,
-      "parsed": 691,
-      "added": 0
-    },
-    {
-      "name": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u",
-      "url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u",
+      "name": "https://github.com/HerbertHe/iptv-sources",
+      "url": "https://github.com/HerbertHe/iptv-sources",
       "ok": false,
       "error": "fetch failed"
     },
     {
-      "name": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u",
-      "url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u",
+      "name": "https://github.com/fanmingming/live",
+      "url": "https://github.com/fanmingming/live",
       "ok": false,
       "error": "fetch failed"
     },
     {
-      "name": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
-      "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://live.zbds.top/tv/iptv6.m3u",
-      "url": "https://live.zbds.top/tv/iptv6.m3u",
-      "ok": true,
-      "parsed": 1,
-      "added": 0
-    },
-    {
-      "name": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
-      "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://raw.githubusercontent.com/whpsky/iptv/main/chinatv.m3u",
-      "url": "https://raw.githubusercontent.com/whpsky/iptv/main/chinatv.m3u",
+      "name": "https://github.com/ssili126/tv",
+      "url": "https://github.com/ssili126/tv",
       "ok": false,
       "error": "fetch failed"
     }
   ],
-  "channelCount": 19,
+  "channelCount": 0,
   "siteCount": 194,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T05:12:11.985Z"
+  "builtAt": "2026-08-24T05:14:02.289Z"
 }

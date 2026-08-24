@@ -1,8 +1,8 @@
 {
   "userAgent": "okhttp/4.12.0",
-  "maxCandidates": 500,
-  "maxAliveChannels": 100,
-  "maxLatencyMs": 3200,
+  "maxCandidates": 600,
+  "maxAliveChannels": 120,
+  "maxLatencyMs": 3500,
   "keepPerChannel": 2,
   "probeConcurrency": 40,
   "probeTimeoutMs": 6000,
@@ -13,7 +13,7 @@
   "minQuality": 2,
   "preferChinese": true,
   "preferNonIp": true,
-  "wishlistOnly": true,
+  "wishlistOnly": false,
   "keepLocalOnFail": false,
   "blockHostPattern": "^localhost$|\\.local$",
   "subscribe": [

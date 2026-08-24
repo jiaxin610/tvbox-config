@@ -1,17 +1,1 @@
 TOP|https://tv.nxog.top/apitv.php?id=23
-TOP|https://raw.githubusercontent.com/DRjopper/tvbox/main/231016.json
-TOP|https://raw.githubusercontent.com/DRjopper/tvbox/main/final.txt
-TOP|https://raw.liucn.cc/box/m.json
-TOP|https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json
-TOP|http://home.jundie.top:81/top98.json
-TOP|http://ok321.top/ok
-TOP|https://100km.top/0
-TOP|http://pt.sxtv.top:66/sx.json
-TOP|https://fmbox.cc
-TOP|http://www.mpanso.com/小米/DEMO.json
-TOP|http://yuhuahx.com/育华学堂/斧头帮.php
-TOP|https://www.macms.pro/box/3.json
-TOP|https://gitee.com/dongchenliu/liu/raw/master/yb.json
-TOP|https://szyyds.cn/tv/x.json
-TOP|https://chuanshuo.77blog.cn/tv.json
-TOP|https://龙伊.top

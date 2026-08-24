@@ -1,20 +1,20 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央卫视",CCTV-1 高清
-http://198.204.228.26/live/cctv1hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央卫视",CCTV-1 高清
 http://204.12.221.218:8181/3m1080p/cctv1.m3u8
 #EXTINF:-1 tvg-id="CCTV2.cn@SD" group-title="央卫视",CCTV-2 高清
-http://198.204.228.26/live/cctv2hd.m3u8
+http://192.151.150.154/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-id="CCTV2.cn@SD" group-title="央卫视",CCTV-2 高清
-http://74.91.26.218:82/live/cctv2hd.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央卫视",CCTV-3 高清
-http://74.91.26.218:82/live/cctv3hd.m3u8
+http://198.204.228.26/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央卫视",CCTV-3 高清
 http://107.150.60.122/live/cctv3hd.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央卫视",CCTV-4 高清
-http://107.150.60.122/live/cctv4hd.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央卫视",CCTV-3 高清
+http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央卫视",CCTV-4 高清
 http://198.204.228.26/live/cctv4hd.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央卫视",CCTV-4 高清
+http://173.208.212.130:8181/1080p/cctv4.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央卫视",CCTV-5 高清
 http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央卫视",CCTV-5+
@@ -26,9 +26,9 @@ http://198.204.228.26/live/cctv6hd.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央卫视",CCTV-6 高清
 http://173.208.212.130:8181/1080p/cctv6.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央卫视",CCTV-7 高清
-http://198.204.228.26/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央卫视",CCTV-7 高清
 http://107.150.60.122/live/cctv7hd.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央卫视",CCTV-7 高清
+http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-id="CCTV8.cn@SD" group-title="央卫视",CCTV-8 8K
 http://192.151.150.154/live/cctv8k.m3u8
 #EXTINF:-1 tvg-id="CCTV8.cn@SD" group-title="央卫视",CCTV-8 8K
@@ -40,45 +40,43 @@ http://204.12.221.218:8181/3m1080p/cctv9.m3u8
 #EXTINF:-1 group-title="央卫视",CCTV-10 高清
 http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央卫视",CCTV-11 高清
-http://74.91.26.218:82/live/cctv11hd.m3u8
+http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央卫视",CCTV-11 高清
-http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
+http://74.91.26.218:82/live/cctv11hd.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央卫视",CCTV-12 高清
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央卫视",CCTV-12 高清
 http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
 #EXTINF:-1 group-title="央卫视",CCTV-13 高清
-http://113.25.252.226:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央卫视",CCTV-13 高清
 http://221.7.175.154:8445/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央卫视",CCTV-13 高清
+http://113.25.252.226:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV14.cn@HD" group-title="央卫视",CCTV-14 高清
 http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="CCTV14.cn@HD" group-title="央卫视",CCTV-14 高清
 http://204.12.221.218:8181/3m1080p/cctv14.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央卫视",CCTV-15 高清
-http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
+http://74.91.26.218:82/live/cctv15hd.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央卫视",CCTV-15 高清
-http://173.208.212.130:8181/1080p/cctv15.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="央卫视",CCTV-16 高清
-http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
+http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="央卫视",CCTV-16 高清
 http://198.204.228.26/live/cctv16hd.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="央卫视",CCTV-16 高清
+http://204.12.221.218:8181/3m1080p/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV17.cn@HD" group-title="央卫视",CCTV-17 高清
 http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="CCTV17.cn@HD" group-title="央卫视",CCTV-17 高清
 http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1 group-title="央卫视",北京卫视
-http://112.249.75.196:9989/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.123.243.37:50085/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="央卫视",北京卫视
-http://113.9.214.47:9003/hls/37/index.m3u8
+http://112.249.75.196:9989/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",东方卫视 4K
 https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-#EXTINF:-1 group-title="央卫视",湖南卫视
-https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
-#EXTINF:-1 group-title="央卫视",湖南卫视
-http://www.yao87.com:4022/udp/239.76.246.101:1234
+#EXTINF:-1 group-title="央卫视",湖南卫视 4K
+http://8.138.7.223/tv/api.php?id=hnws4k
 #EXTINF:-1 group-title="央卫视",浙江卫视 高清
-http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 group-title="央卫视",浙江卫视 高清
 http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 group-title="央卫视",江苏卫视 4K
@@ -92,27 +90,27 @@ http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
 #EXTINF:-1 group-title="央卫视",深圳卫视 高清
 http://198.204.228.26/live/szwshd.m3u8
 #EXTINF:-1 group-title="央卫视",天津卫视
-http://113.9.214.47:9003/hls/39/index.m3u8
+http://112.123.243.37:50085/tsfile/live/0128_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="央卫视",天津卫视
 http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="央卫视",山东卫视
-http://t.061899.xyz/tl/tl.php?id=sdws
-#EXTINF:-1 group-title="央卫视",山东卫视
 http://113.57.140.161:10081/newlive/live/hls/35/live.m3u8
+#EXTINF:-1 group-title="央卫视",山东卫视
+http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="央卫视",湖北卫视 高清
 http://107.150.60.122/live/hbwshd.m3u8
 #EXTINF:-1 group-title="央卫视",安徽卫视 标清
 http://219.147.245.238:25480/newlive/live/hls/40/live.m3u8
 #EXTINF:-1 group-title="央卫视",辽宁卫视
-http://t.061899.xyz/tl/tl.php?id=lnws
+http://112.123.243.37:50085/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="央卫视",辽宁卫视
-http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
+http://123.118.53.84:45237/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",黑龙江卫视 高清
 http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub
 #EXTINF:-1 group-title="央卫视",四川卫视
 https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",四川卫视
-http://112.249.75.196:9989/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.123.243.37:50085/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="央卫视",河南卫视
 http://123.118.53.84:45237/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",河南卫视
@@ -122,7 +120,7 @@ http://120.76.248.139/live/bfgd/4200000108.m3u8
 #EXTINF:-1 group-title="央卫视",重庆卫视
 http://111.59.24.227:8181/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",重庆卫视
-http://113.9.214.47:9003/hls/47/index.m3u8
+http://221.7.175.154:8445/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",东南卫视
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 group-title="央卫视",东南卫视
@@ -130,7 +128,7 @@ http://t.061899.xyz/tl/tl.php?id=dnws
 #EXTINF:-1 group-title="央卫视",江西卫视
 https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",江西卫视
-http://123.118.53.84:45237/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+http://t.061899.xyz/tl/tl.php?id=jxws
 #EXTINF:-1 group-title="央卫视",贵州卫视
 https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",贵州卫视
@@ -138,33 +136,33 @@ https://gd202.tv1288.xyz/tsfile/live/1023_1.m3u8
 #EXTINF:-1 group-title="央卫视",云南卫视 高清
 http://107.150.60.122/live/ynwshd.m3u8
 #EXTINF:-1 group-title="央卫视",广西卫视
-http://t.061899.xyz/tl/tl.php?id=gxws
+http://112.123.243.37:50085/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="央卫视",广西卫视
 http://123.118.55.165:45237/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",山西卫视
-https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 group-title="央卫视",山西卫视
 https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 group-title="央卫视",山西卫视
+https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",陕西卫视
 https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",陕西卫视
-http://112.123.243.37:50085/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央卫视",吉林卫视 高清
-http://107.150.60.122/live/jlwshd.m3u8
+http://t.061899.xyz/tl/tl.php?id=sxws
 #EXTINF:-1 group-title="央卫视",吉林卫视 高清
 http://204.12.221.218:8181/3m1080p/jlws.m3u8
+#EXTINF:-1 group-title="央卫视",吉林卫视 高清
+http://107.150.60.122/live/jlwshd.m3u8
 #EXTINF:-1 group-title="央卫视",内蒙古卫视
 https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",内蒙古卫视
-http://123.118.53.84:45237/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
+http://118.193.115.2:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",新疆卫视
 https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",新疆卫视
-http://113.25.252.226:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&authid=0
+http://222.169.85.8:9901/tsfile/live/0110_1.m3u8
 #EXTINF:-1 group-title="央卫视",西藏卫视
 https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 group-title="央卫视",西藏卫视
-http://123.118.55.165:45237/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+http://t.061899.xyz/tl/tl.php?id=xzws
 #EXTINF:-1 group-title="央卫视",海南卫视
 http://112.234.22.76:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",海南卫视
@@ -176,9 +174,9 @@ http://113.9.214.47:9003/hls/54/index.m3u8
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/宁夏卫视.png" group-title="央卫视",宁夏卫视
 http://120.76.248.139/live/bfgd/4200000118.m3u8
 #EXTINF:-1 group-title="央卫视",青海卫视
-http://123.118.53.84:45237/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央卫视",青海卫视
 http://118.193.115.2:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央卫视",青海卫视
+http://112.27.5.218:9901/tsfile/live/0140_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央卫视",厦门卫视
 http://113.57.140.161:10081/newlive/live/hls/28/live.m3u8
 #EXTINF:-1 group-title="央卫视",厦门卫视

@@ -10,7 +10,7 @@
   "allowIpHost": true,
   "skipHeavyQuality": false,
   "prefer4K": true,
-  "minQuality": 2,
+  "minQuality": 1,
   "preferChinese": true,
   "preferNonIp": true,
   "wishlistOnly": true,

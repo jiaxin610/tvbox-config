@@ -1,13 +1,23 @@
 #!/usr/bin/env node
 /**
- * IPTV scan + VOD sites → write GitHub Pages dist/
+ * IPTV scan + CMS sites + 单仓 merge → GitHub Pages dist/
  */
 import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { scanIptvSubscriptions } from "./lib/collect.mjs";
 import { buildM3u } from "./lib/m3u.mjs";
-import { parseSitesTxt, normalizeSites, probeSite } from "./lib/sites.mjs";
+import {
+  parseSitesTxt,
+  normalizeSites,
+  mergeSiteLists,
+  probeSite,
+} from "./lib/sites.mjs";
+import {
+  parseWarehousesTxt,
+  mergeWarehouses,
+  isLikelyWarehouseUrl,
+} from "./lib/warehouse.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DIST = join(ROOT, "dist");
@@ -38,56 +48,79 @@ const subscribe = [
 ];
 
 const seenSub = new Set();
-const merged = [];
+const mergedSub = [];
 for (const s of subscribe) {
   const url = typeof s === "string" ? s : s.url;
   if (!url || seenSub.has(url)) continue;
   seenSub.add(url);
-  merged.push(typeof s === "string" ? { url, name: url, enabled: true } : s);
+  mergedSub.push(typeof s === "string" ? { url, name: url, enabled: true } : s);
 }
 
-const config = {
-  ...raw,
-  subscribe: merged,
-  seed: [],
-  playlists: [],
-};
+const config = { ...raw, subscribe: mergedSub, seed: [], playlists: [] };
 
-// ---- VOD sites ----
-let sitesRaw = [];
+// ---- CMS sites (sites.txt) + auto-detect 单仓 lines ----
+let cmsRaw = [];
+let warehouseFromSites = [];
 try {
   const sj = JSON.parse(await readFile(join(ROOT, "sources", "sites.json"), "utf8"));
-  sitesRaw = Array.isArray(sj.sites) ? sj.sites : [];
+  cmsRaw = Array.isArray(sj.sites) ? sj.sites : [];
 } catch {
   /* optional */
 }
 try {
   const st = await readFile(join(ROOT, "sources", "sites.txt"), "utf8");
-  for (const row of parseSitesTxt(st)) sitesRaw.push(row);
+  for (const row of parseSitesTxt(st)) {
+    if (isLikelyWarehouseUrl(row.api)) {
+      warehouseFromSites.push({ name: row.name, url: row.api });
+    } else {
+      cmsRaw.push(row);
+    }
+  }
 } catch {
   /* optional */
 }
-let sites = normalizeSites(sitesRaw);
 
-if (PROBE_SITES && sites.length) {
-  console.log(`[sites] probing ${sites.length} ...`);
+// ---- warehouses.txt ----
+let warehouseEntries = [...warehouseFromSites];
+try {
+  const wt = await readFile(join(ROOT, "sources", "warehouses.txt"), "utf8");
+  const seenWh = new Set(warehouseEntries.map((w) => w.url));
+  for (const row of parseWarehousesTxt(wt)) {
+    if (!seenWh.has(row.url)) {
+      warehouseEntries.push(row);
+      seenWh.add(row.url);
+    }
+  }
+} catch {
+  /* optional */
+}
+
+let cmsSites = normalizeSites(cmsRaw);
+let whMerge = { sites: [], parses: [], flags: [], spider: "", wallpaper: "", report: [] };
+
+if (warehouseEntries.length) {
+  console.log(`[once] warehouses=${warehouseEntries.length}`);
+  whMerge = await mergeWarehouses(warehouseEntries, {
+    onLog: (m) => console.log(`[wh] ${m}`),
+  });
+}
+
+let sites = mergeSiteLists(cmsSites, whMerge.sites);
+
+if (PROBE_SITES && cmsSites.length) {
+  console.log(`[sites] probing CMS ${cmsSites.length} ...`);
   const kept = [];
-  for (const s of sites) {
+  for (const s of cmsSites) {
     const r = await probeSite(s.api);
     console.log(`[sites] ${s.name} -> ${r.ok ? "ok" : r.reason}`);
     if (r.ok) kept.push(s);
   }
-  sites = kept;
+  cmsSites = kept;
+  sites = mergeSiteLists(cmsSites, whMerge.sites);
 }
 
-console.log(`[once] IPTV scan subscribe=${merged.length}`);
-console.log(`[once] VOD sites=${sites.length}`);
-if (!merged.length) {
-  console.warn("[once] 没有直播订阅：编辑 sources/subscribe.txt");
-}
-if (!sites.length) {
-  console.warn("[once] 没有点播站点：编辑 sources/sites.txt （名称|接口）");
-}
+console.log(`[once] IPTV subscribe=${mergedSub.length}`);
+console.log(`[once] CMS sites=${cmsSites.length} warehouse_sites=${whMerge.sites.length} total=${sites.length}`);
 
 const { channels, meta } = await scanIptvSubscriptions(config, {
   onLog: (m) => console.log(`[scan] ${m}`),
@@ -100,8 +133,8 @@ await writeFile(
   join(DIST, "config.json"),
   JSON.stringify(
     {
-      spider: "",
-      wallpaper: "",
+      spider: whMerge.spider || "",
+      wallpaper: whMerge.wallpaper || "",
       sites,
       lives: [
         {
@@ -112,8 +145,8 @@ await writeFile(
           logo: "",
         },
       ],
-      parses: [],
-      flags: [],
+      parses: whMerge.parses || [],
+      flags: whMerge.flags || [],
       ijk: [],
       ads: [],
     },
@@ -128,8 +161,10 @@ await writeFile(
     {
       ...meta,
       channelCount: channels.length,
+      cmsSiteCount: cmsSites.length,
+      warehouseSiteCount: whMerge.sites.length,
       siteCount: sites.length,
-      sites: sites.map((s) => ({ name: s.name, api: s.api })),
+      warehouseReport: whMerge.report,
       livesUrl,
     },
     null,
@@ -156,16 +191,16 @@ await writeFile(
 );
 await writeFile(
   join(ROOT, "sources", "sites.json"),
-  JSON.stringify({ sites }, null, 2) + "\n",
+  JSON.stringify({ sites: cmsSites }, null, 2) + "\n",
   "utf8",
 );
 await writeFile(
   join(DIST, "index.html"),
   `<!doctype html><meta charset="utf-8"><title>TVBox Config</title>
 <p>配置：<a href="./config.json">${PAGES_BASE}/config.json</a></p>
-<p>直播：${channels.length}　点播站点：${sites.length}</p>
+<p>直播：${channels.length}　点播：CMS ${cmsSites.length} + 单仓 ${whMerge.sites.length} = ${sites.length}</p>
 `,
   "utf8",
 );
 
-console.log(`[once] done live=${channels.length} vod_sites=${sites.length}`);
+console.log(`[once] done live=${channels.length} sites=${sites.length}`);

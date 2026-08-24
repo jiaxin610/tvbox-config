@@ -10,7 +10,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_1",
       "name": "我的片库",
       "type": 1,
       "api": "https://raw.githubusercontent.com/DRjopper/tvbox/main/231016.json",
@@ -19,7 +19,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_2",
       "name": "我的片库",
       "type": 1,
       "api": "https://raw.githubusercontent.com/DRjopper/tvbox/main/final.txt",
@@ -28,7 +28,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_3",
       "name": "我的片库",
       "type": 1,
       "api": "https://raw.liucn.cc/box/m.json",
@@ -37,7 +37,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_4",
       "name": "我的片库",
       "type": 1,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json",
@@ -46,7 +46,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_5",
       "name": "我的片库",
       "type": 1,
       "api": "http://home.jundie.top:81/top98.json",
@@ -55,7 +55,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_6",
       "name": "我的片库",
       "type": 1,
       "api": "http://ok321.top/ok",
@@ -64,7 +64,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_7",
       "name": "我的片库",
       "type": 1,
       "api": "https://100km.top/0",
@@ -73,7 +73,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_8",
       "name": "我的片库",
       "type": 1,
       "api": "http://pt.sxtv.top:66/sx.json",
@@ -82,7 +82,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_9",
       "name": "我的片库",
       "type": 1,
       "api": "https://fmbox.cc",
@@ -91,7 +91,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_10",
       "name": "我的片库",
       "type": 1,
       "api": "http://www.mpanso.com/小米/DEMO.json",
@@ -100,7 +100,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_11",
       "name": "我的片库",
       "type": 1,
       "api": "http://yuhuahx.com/育华学堂/斧头帮.php",
@@ -109,7 +109,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_12",
       "name": "我的片库",
       "type": 1,
       "api": "https://www.macms.pro/box/3.json",
@@ -118,7 +118,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_13",
       "name": "我的片库",
       "type": 1,
       "api": "https://gitee.com/dongchenliu/liu/raw/master/yb.json",
@@ -127,7 +127,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_14",
       "name": "我的片库",
       "type": 1,
       "api": "https://szyyds.cn/tv/x.json",
@@ -136,7 +136,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_15",
       "name": "我的片库",
       "type": 1,
       "api": "https://chuanshuo.77blog.cn/tv.json",
@@ -145,7 +145,7 @@
       "filter": 1
     },
     {
-      "key": "我的片库",
+      "key": "site_16",
       "name": "我的片库",
       "type": 1,
       "api": "https://龙伊.top",

@@ -1,5 +1,1 @@
-# 单仓配置（整份 TVBox JSON）
-# 格式：名称|配置地址
-# 发布时会拉取 JSON，把里面的 sites/parses 合并进你的 config.json
-#
 TOP|https://tv.nxog.top/apitv.php?id=23

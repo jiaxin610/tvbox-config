@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/top98_1.jar",
+  "spider": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar",
   "wallpaper": "https://picsum.photos/1920/1080",
   "sites": [
     {

@@ -4,4 +4,3 @@
 央视,#genre#
 CCTV-13 高清,http://113.25.252.226:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-13 高清,http://221.7.175.154:8445/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV-13 高清,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd

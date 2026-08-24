@@ -1,6 +1,6 @@
-# 频道愿望清单：只保留本文件列出的频道（wishlistOnly=true）
-# 清晰度：upstreams.json 里 minQuality=2，仅保留 1080/高清/4K，标清与无标识 IP 源会被丢弃
-# 名称含「高清」「超清」「1080」「4K」或 URL 含 1080p/fhd/hq/4k 才会入选
+# 频道愿望清单（iptv-api 的 source_file / demo.txt）
+# 定时任务只输出清单里的频道；清晰度：仅高清(1080)与 4K（minQuality=2）
+# 测速会嗅探 m3u8 的 RESOLUTION=1920x1080 / 3840x2160
 #
 央视频道,#genre#
 CCTV-1
@@ -8,6 +8,7 @@ CCTV-2
 CCTV-3
 CCTV-4
 CCTV-5
+CCTV-5+
 CCTV-6
 CCTV-7
 CCTV-8
@@ -20,6 +21,7 @@ CCTV-14
 CCTV-15
 CCTV-16
 CCTV-17
+CCTV-4K
 
 卫视频道,#genre#
 北京卫视

@@ -1,20 +1,20 @@
 {
-  "checkedAt": "2026-08-24T08:03:13.018Z",
+  "checkedAt": "2026-08-24T08:14:27.689Z",
   "mode": "iptv-wishlist",
   "subscribeCount": 8,
-  "wishlistCount": 50,
-  "wishlistMatched": 59,
-  "candidates": 104,
-  "urlsTotal": 186,
-  "urlsAlive": 116,
-  "urlsDead": 70,
-  "channelsAlive": 59,
+  "wishlistCount": 52,
+  "wishlistMatched": 28,
+  "candidates": 800,
+  "urlsTotal": 1578,
+  "urlsAlive": 763,
+  "urlsDead": 815,
+  "channelsAlive": 28,
   "maxLatencyMs": 3500,
   "maxAliveChannels": 120,
   "prefer4K": true,
   "minQuality": 2,
-  "fourKCount": 7,
-  "hdCount": 52,
+  "fourKCount": 6,
+  "hdCount": 22,
   "fetchReport": [
     {
       "name": "local",
@@ -28,14 +28,14 @@
       "url": "https://live.zbds.top/tv/iptv4.m3u",
       "ok": true,
       "parsed": 453,
-      "added": 24
+      "added": 350
     },
     {
       "name": "https://live.zbds.top/tv/iptv4.txt",
       "url": "https://live.zbds.top/tv/iptv4.txt",
       "ok": true,
       "parsed": 691,
-      "added": 20
+      "added": 219
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
@@ -49,39 +49,39 @@
       "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
       "ok": true,
       "parsed": 133,
-      "added": 50
+      "added": 114
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
       "ok": true,
       "parsed": 291,
-      "added": 7
+      "added": 129
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
       "ok": true,
       "parsed": 1223,
-      "added": 78
+      "added": 1001
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/央视.m3u",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/央视.m3u",
       "ok": true,
       "parsed": 30,
-      "added": 2
+      "added": 17
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u",
       "ok": true,
       "parsed": 309,
-      "added": 5
+      "added": 93
     }
   ],
-  "channelCount": 59,
+  "channelCount": 28,
   "siteCount": 68,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T08:03:13.023Z"
+  "builtAt": "2026-08-24T08:14:27.694Z"
 }

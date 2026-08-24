@@ -1,0 +1,59 @@
+name: IPTV Auto Update (HD/4K)
+
+# iptv-api 风格：定时采集订阅 → 筛高清/4K → 测速 → 部署 Pages
+on:
+  schedule:
+    # 每 6 小时（UTC）：北京时间 02/08/14/20 点
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: iptv-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Collect HD/4K lives + build publish/
+        env:
+          PAGES_BASE: https://jiaxin610.github.io/tvbox-config
+        run: node publish.mjs --build
+
+      - name: Commit publish/ if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publish/
+          if git diff --staged --quiet; then
+            echo "no publish changes"
+          else
+            git commit -m "chore: auto-update HD/4K IPTV $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload publish/
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: publish
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

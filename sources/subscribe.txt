@@ -1,11 +1,12 @@
-# 本地拨号源（可选）
-# 格式：分类,#genre#  然后  频道名,http://地址
+# iptv-api 同款：远程订阅源（每行一个 http/https）
+# 定时任务会拉取这些列表 → 按 channels.txt 匹配 → 只保留高清/4K → 测速 → 发布
+# 以 # 开头忽略
 #
-# 重要：当前只收录「高清/1080/4K」线路（minQuality=2）
-# 名称或地址里需含：高清、超清、1080、4K、FHD、UHD 等
-# 纯 IP 地址、无清晰度标记的源会被自动丢弃
-#
-# 示例：
-# 央视,#genre#
-# CCTV1 高清,http://example.com/cctv1_1080.m3u8
-# CCTV1 4K,http://example.com/cctv1_4k.m3u8$!
+https://live.zbds.top/tv/iptv4.m3u
+https://live.zbds.top/tv/iptv4.txt
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
+https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8
+https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8
+https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/央视.m3u
+https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u

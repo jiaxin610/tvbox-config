@@ -1,0 +1,7 @@
+# 本地固定源（iptv-api local.txt 同款，可选）
+# 格式：分类,#genre#  然后  频道名,http://地址
+# 名称或 URL 必须带 高清/1080/4K，否则会被 minQuality 过滤
+#
+# 央视,#genre#
+# CCTV1 高清,http://example.com/cctv1_1080.m3u8
+# CCTV1 4K,http://example.com/cctv1_4k.m3u8$!

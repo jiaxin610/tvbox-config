@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-08-24T10:43:40.203Z",
+  "checkedAt": "2026-08-24T11:11:58.434Z",
   "mode": "iptv-wishlist",
   "subscribeCount": 8,
   "wishlistCount": 52,
   "wishlistMatched": 51,
   "candidates": 800,
   "urlsTotal": 1694,
-  "urlsAlive": 1038,
-  "urlsDead": 656,
+  "urlsAlive": 996,
+  "urlsDead": 698,
   "channelsAlive": 51,
   "maxLatencyMs": 4500,
   "maxAliveChannels": 120,
   "prefer4K": true,
   "minQuality": 1,
-  "fourKCount": 4,
+  "fourKCount": 3,
   "hdCount": 22,
   "sdCount": 1,
   "fetchReport": [
@@ -80,7 +80,7 @@
     }
   ],
   "channelCount": 51,
-  "siteCount": 76,
+  "siteCount": 413,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T10:43:40.206Z"
+  "builtAt": "2026-08-24T11:11:58.446Z"
 }

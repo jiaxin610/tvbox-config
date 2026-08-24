@@ -1,0 +1,6 @@
+# PG 爬虫 jar（夸克盘搜 / 盘搜类 CSP 需要）
+# 构建时按顺序尝试下载，成功则镜像到 publish/jar/pg.jar
+https://gh-proxy.com/https://raw.githubusercontent.com/Jiu-C/TV-PG/main/pg.jar
+https://raw.kkgithub.com/Jiu-C/TV-PG/main/pg.jar
+https://cdn.jsdelivr.net/gh/Jiu-C/TV-PG@main/pg.jar
+https://raw.githubusercontent.com/Jiu-C/TV-PG/main/pg.jar

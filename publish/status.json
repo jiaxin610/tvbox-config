@@ -1,38 +1,27 @@
 {
-  "checkedAt": "2026-08-24T05:14:02.284Z",
+  "checkedAt": "2026-08-24T05:21:31.327Z",
   "mode": "iptv-wishlist",
-  "subscribeCount": 3,
+  "subscribeCount": 1,
   "wishlistCount": 49,
-  "wishlistMatched": 0,
-  "candidates": 0,
-  "urlsTotal": 0,
-  "urlsAlive": 0,
-  "urlsDead": 0,
-  "channelsAlive": 0,
+  "wishlistMatched": 12,
+  "candidates": 200,
+  "urlsTotal": 548,
+  "urlsAlive": 145,
+  "urlsDead": 403,
+  "channelsAlive": 12,
   "maxLatencyMs": 2500,
   "maxAliveChannels": 120,
   "fetchReport": [
     {
-      "name": "https://github.com/HerbertHe/iptv-sources",
-      "url": "https://github.com/HerbertHe/iptv-sources",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://github.com/fanmingming/live",
-      "url": "https://github.com/fanmingming/live",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://github.com/ssili126/tv",
-      "url": "https://github.com/ssili126/tv",
-      "ok": false,
-      "error": "fetch failed"
+      "name": "https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
+      "url": "https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
+      "ok": true,
+      "parsed": 1687,
+      "added": 1315
     }
   ],
-  "channelCount": 0,
+  "channelCount": 12,
   "siteCount": 194,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T05:14:02.289Z"
+  "builtAt": "2026-08-24T05:21:31.330Z"
 }

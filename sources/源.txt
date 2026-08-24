@@ -14,3 +14,4 @@ gitee-yb|https://gitee.com/dongchenliu/liu/raw/master/yb.json
 jx|https://szyyds.cn/tv/x.json
 chuanshuo|https://chuanshuo.77blog.cn/tv.json
 龙伊|https://龙伊.top
+4K|https://tv.nxog.top/apitv.php?id=23

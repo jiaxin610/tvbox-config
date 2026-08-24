@@ -1,5 +1,6 @@
 {
-  "title": "豆瓣推荐",
+  "title": "光速",
+  "homeSitePattern": "光速|guangsuapi|推荐_光速",
   "wallpaper": "https://picsum.photos/1920/1080",
   "homeCategories": [
     "热门电影",
@@ -33,5 +34,5 @@
     "日韩动漫",
     "欧美动漫"
   ],
-  "preferNamePattern": "豆瓣|推荐|热门|榜单|douban|首页"
+  "preferNamePattern": "光速|推荐|热门|榜单|douban|首页"
 }

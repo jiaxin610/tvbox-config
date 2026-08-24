@@ -1,7 +1,7 @@
-# 本地固定源（iptv-api local.txt 同款，可选）
+# 本地固定源（测速失败也尽量保留；名称带「高清」以满足 minQuality）
 # 格式：分类,#genre#  然后  频道名,http://地址
-# 名称或 URL 必须带 高清/1080/4K，否则会被 minQuality 过滤
 #
-# 央视,#genre#
-# CCTV1 高清,http://example.com/cctv1_1080.m3u8
-# CCTV1 4K,http://example.com/cctv1_4k.m3u8$!
+央视,#genre#
+CCTV-13 高清,http://113.25.252.226:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-13 高清,http://221.7.175.154:8445/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-13 高清,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd

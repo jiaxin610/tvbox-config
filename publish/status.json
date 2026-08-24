@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T03:32:27.649Z",
+  "checkedAt": "2026-08-24T03:40:48.337Z",
   "mode": "iptv-scan",
   "subscribeCount": 12,
   "candidates": 200,
@@ -90,5 +90,5 @@
   "channelCount": 120,
   "siteCount": 58,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T03:32:27.652Z"
+  "builtAt": "2026-08-24T03:40:48.345Z"
 }

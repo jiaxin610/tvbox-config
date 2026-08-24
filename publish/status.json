@@ -1,27 +1,19 @@
 {
-  "checkedAt": "2026-08-24T05:25:31.653Z",
+  "checkedAt": "2026-08-24T05:28:53.036Z",
   "mode": "iptv-wishlist",
-  "subscribeCount": 1,
+  "subscribeCount": 0,
   "wishlistCount": 49,
-  "wishlistMatched": 13,
-  "candidates": 200,
-  "urlsTotal": 548,
-  "urlsAlive": 145,
-  "urlsDead": 403,
-  "channelsAlive": 13,
+  "wishlistMatched": 0,
+  "candidates": 0,
+  "urlsTotal": 0,
+  "urlsAlive": 0,
+  "urlsDead": 0,
+  "channelsAlive": 0,
   "maxLatencyMs": 2500,
   "maxAliveChannels": 120,
-  "fetchReport": [
-    {
-      "name": "https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
-      "url": "https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
-      "ok": true,
-      "parsed": 1687,
-      "added": 1315
-    }
-  ],
-  "channelCount": 13,
+  "fetchReport": [],
+  "channelCount": 0,
   "siteCount": 67,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T05:25:31.658Z"
+  "builtAt": "2026-08-24T05:28:53.039Z"
 }

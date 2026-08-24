@@ -1,9 +1,6 @@
-# iptv-api 同款：远程订阅源（每行一个 http/https）
-# 定时任务会拉取这些列表 → 按 channels.txt 匹配 → 测速 → 发布
+# 远程直播订阅（每行一个 URL）
 # 以 # 开头忽略
 #
-https://live.zbds.top/tv/iptv4.m3u
-https://live.zbds.top/tv/iptv4.txt
 https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
 https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8
 https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8

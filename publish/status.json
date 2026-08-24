@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-08-24T11:35:25.217Z",
+  "checkedAt": "2026-08-24T12:27:52.127Z",
   "mode": "iptv-wishlist",
-  "subscribeCount": 8,
+  "subscribeCount": 6,
   "wishlistCount": 52,
   "wishlistMatched": 51,
   "candidates": 800,
   "urlsTotal": 1694,
-  "urlsAlive": 1099,
-  "urlsDead": 595,
+  "urlsAlive": 1083,
+  "urlsDead": 611,
   "channelsAlive": 51,
   "maxLatencyMs": 4500,
   "maxAliveChannels": 120,
   "prefer4K": true,
   "minQuality": 1,
-  "fourKCount": 4,
+  "fourKCount": 3,
   "hdCount": 22,
   "sdCount": 1,
   "fetchReport": [
@@ -23,18 +23,6 @@
       "ok": true,
       "parsed": 2,
       "added": 2
-    },
-    {
-      "name": "https://live.zbds.top/tv/iptv4.m3u",
-      "url": "https://live.zbds.top/tv/iptv4.m3u",
-      "ok": false,
-      "error": "fetch failed"
-    },
-    {
-      "name": "https://live.zbds.top/tv/iptv4.txt",
-      "url": "https://live.zbds.top/tv/iptv4.txt",
-      "ok": false,
-      "error": "fetch failed"
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
@@ -82,5 +70,5 @@
   "channelCount": 51,
   "siteCount": 404,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T11:35:25.223Z"
+  "builtAt": "2026-08-24T12:27:52.136Z"
 }

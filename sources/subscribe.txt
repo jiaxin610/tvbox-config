@@ -3,6 +3,7 @@
 # 2) 本地拨号源（推荐）：分类,#genre# + 频道名,http://地址
 # 以 # 开头的行为注释
 #
+https://github.com/jia070310/4K-IPTV-M3U
 大陆央视,#genre#
 CCTV1,http://135.148.104.228:19806/5cb2056ba225422aab04f0ff6c1a1ad9
 CCTV2,http://135.148.104.228:19806/1c7a2a5c0c384637bb942eb49cc1e0ee

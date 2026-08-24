@@ -1,18 +1,18 @@
 {
-  "checkedAt": "2026-08-24T06:41:25.536Z",
+  "checkedAt": "2026-08-24T06:50:52.288Z",
   "mode": "iptv-wishlist",
-  "subscribeCount": 8,
+  "subscribeCount": 9,
   "wishlistCount": 50,
   "wishlistMatched": 50,
   "candidates": 500,
   "urlsTotal": 1281,
-  "urlsAlive": 689,
-  "urlsDead": 592,
+  "urlsAlive": 757,
+  "urlsDead": 524,
   "channelsAlive": 50,
   "maxLatencyMs": 2800,
   "maxAliveChannels": 100,
   "prefer4K": true,
-  "fourKCount": 6,
+  "fourKCount": 5,
   "fetchReport": [
     {
       "name": "local",
@@ -76,10 +76,16 @@
       "ok": true,
       "parsed": 309,
       "added": 115
+    },
+    {
+      "name": "https://github.com/jia070310/4K-IPTV-M3U",
+      "url": "https://github.com/jia070310/4K-IPTV-M3U",
+      "ok": false,
+      "error": "fetch failed"
     }
   ],
   "channelCount": 50,
   "siteCount": 66,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-24T06:41:25.557Z"
+  "builtAt": "2026-08-24T06:50:52.295Z"
 }

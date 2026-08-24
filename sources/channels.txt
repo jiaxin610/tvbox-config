@@ -1,6 +1,4 @@
-# 频道排序优先清单（iptv-api 同款）
-# 有本地拨号源（subscribe.txt）时：清单里的频道排前面，其余仍保留
-# 格式：分类,#genre# / 频道名 / 频道名,http://地址$!
+# 频道排序优先清单（含 4K；发布时优先匹配 4K 线路）
 #
 央视,#genre#
 CCTV1
@@ -21,6 +19,7 @@ CCTV14
 CCTV15
 CCTV16
 CCTV17
+CCTV4K
 
 卫视,#genre#
 湖南卫视

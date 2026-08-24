@@ -1,14 +1,15 @@
 {
   "userAgent": "okhttp/4.12.0",
-  "maxCandidates": 400,
-  "maxAliveChannels": 80,
-  "maxLatencyMs": 1800,
-  "keepPerChannel": 1,
+  "maxCandidates": 500,
+  "maxAliveChannels": 100,
+  "maxLatencyMs": 2800,
+  "keepPerChannel": 2,
   "probeConcurrency": 40,
-  "probeTimeoutMs": 4500,
+  "probeTimeoutMs": 5500,
   "refreshHours": 6,
   "allowIpHost": true,
-  "skipHeavyQuality": true,
+  "skipHeavyQuality": false,
+  "prefer4K": true,
   "preferChinese": true,
   "preferNonIp": true,
   "wishlistOnly": true,
@@ -17,7 +18,12 @@
   "subscribe": [
     "https://live.zbds.top/tv/iptv4.m3u",
     "https://live.zbds.top/tv/iptv4.txt",
-    "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt"
+    "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
+    "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+    "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
+    "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+    "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/央视.m3u",
+    "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u"
   ],
   "seed": []
 }

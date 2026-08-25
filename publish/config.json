@@ -22,6 +22,19 @@
       "changeable": 0
     },
     {
+      "key": "配置中心",
+      "name": "[1]❤配置｜中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "filterable": 0
+    },
+    {
       "key": "csp_wogg1",
       "name": "[1]🐲玩歌｜4K弹幕",
       "type": 3,
@@ -362,6 +375,30 @@
       "type": 3,
       "api": "csp_Nostr",
       "homePage": "https://v.nxog.top/nostr/nostr.html",
+      "filterable": 1
+    },
+    {
+      "key": "Nostr2",
+      "name": "[1]🐉Nostr玩偶集",
+      "type": 3,
+      "api": "csp_Nostr",
+      "homePage": "https://v.nxog.top/nostr/ouge2.html",
+      "filterable": 1
+    },
+    {
+      "key": "豆瓣3",
+      "name": "[1]📢接口软件永远免费",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "豆瓣4",
+      "name": "[1]📢长期维护切勿贩卖",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
       "filterable": 1
     },
     {
@@ -2242,6 +2279,34 @@
       "filterable": 1
     },
     {
+      "key": "Aid",
+      "name": "[2]🚑急救┃教学",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "filterable": 1
+    },
+    {
+      "key": "米搜_1",
+      "name": "[2]🦋米搜┃搜索",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      },
+      "filterable": 1
+    },
+    {
       "key": "夸搜",
       "name": "[2]🐌夸搜┃搜索",
       "type": 3,
@@ -2435,6 +2500,17 @@
     {
       "key": "xgapp",
       "name": "[2]🍉┃西瓜┃v3",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
+    },
+    {
+      "key": "骑骑影院",
+      "name": "[2]🚵┃骑骑┃v3",
       "type": 3,
       "playerType": 2,
       "api": "csp_AppYsV2",
@@ -3424,6 +3500,15 @@
       "filterable": 1
     },
     {
+      "key": "csp_MeijuMi",
+      "name": "[2]🧲美剧迷",
+      "type": 3,
+      "api": "csp_MeijuMi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_Xunlei8",
       "name": "[2]🧲迅雷吧",
       "type": 3,
@@ -3642,6 +3727,20 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/biliych.json",
+      "filterable": 1
+    },
+    {
+      "key": "Aid_1",
+      "name": "[2]🚑急救┃教学",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
       "filterable": 1
     },
     {
@@ -3912,6 +4011,15 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./libs/hccx/短视频聚合.json"
+    },
+    {
+      "key": "360",
+      "name": "[3]360",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "nbys",
@@ -4890,6 +4998,18 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+TbK3c790iI/b5LtEhxNfAQK7DRvrLcqbf1Q0MQntXLZfMhK0Xsn6nwmF+shR8eZ76qXW3y9XKbblunmCSPux0YtJlscp9zpDmW7Ju4ufOtv+BcyBX7VWrSzyUWoVcxGhUtv",
+      "filterable": 1
+    },
+    {
+      "key": "猫猫",
+      "name": "[4]🐟猫猫┃多线",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A==",
       "filterable": 1
     },
     {

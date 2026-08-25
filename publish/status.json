@@ -1,32 +1,67 @@
 {
-  "mode": "vod-only",
-  "siteCount": 194,
-  "home": "TOP",
-  "warehouses": [
+  "checkedAt": "2026-08-25T03:57:59.546Z",
+  "mode": "iptv-wishlist",
+  "subscribeCount": 6,
+  "wishlistCount": 52,
+  "wishlistMatched": 51,
+  "candidates": 800,
+  "urlsTotal": 1602,
+  "urlsAlive": 989,
+  "urlsDead": 613,
+  "channelsAlive": 51,
+  "maxLatencyMs": 4500,
+  "maxAliveChannels": 120,
+  "prefer4K": true,
+  "minQuality": 1,
+  "fourKCount": 2,
+  "hdCount": 23,
+  "sdCount": 0,
+  "fetchReport": [
     {
-      "name": "TOP",
-      "url": "https://tv.nxog.top/apitv.php?id=23"
+      "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
+      "ok": true,
+      "parsed": 765,
+      "added": 757
     },
     {
-      "name": "饭太硬",
-      "url": "https://raw.liucn.cc/box/m.json"
+      "name": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+      "ok": true,
+      "parsed": 101,
+      "added": 80
     },
     {
-      "name": "运输车",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json"
+      "name": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
+      "ok": true,
+      "parsed": 200,
+      "added": 81
     },
     {
-      "name": "俊于",
-      "url": "http://home.jundie.top:81/top98.json"
+      "name": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+      "ok": true,
+      "parsed": 1223,
+      "added": 1029
     },
     {
-      "name": "小米",
-      "url": "https://szyyds.cn/tv/x.json"
+      "name": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/央视.m3u",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/央视.m3u",
+      "ok": true,
+      "parsed": 30,
+      "added": 17
     },
     {
-      "name": "龙伊",
-      "url": "https://龙伊.top"
+      "name": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u",
+      "ok": true,
+      "parsed": 309,
+      "added": 98
     }
   ],
-  "builtAt": "2026-08-25T03:41:37.965Z"
+  "channelCount": 51,
+  "siteCount": 194,
+  "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
+  "builtAt": "2026-08-25T03:57:59.549Z"
 }

@@ -14,7 +14,7 @@
   "preferChinese": true,
   "preferNonIp": true,
   "wishlistOnly": true,
-  "keepLocalOnFail": true,
+  "keepLocalOnFail": false,
   "blockHostPattern": "^localhost$|\\.local$|event\\.pull\\.hebtv\\.com$",
   "blockUrlPattern": "/jishi/cp\\d+|ali-m-l\\.cztv\\.com/channels/lantian/channel21|/live/cctv13hd\\.m3u8|63\\.141\\.230\\.178|zbdq5\\.m3u8",
   "subscribe": [],

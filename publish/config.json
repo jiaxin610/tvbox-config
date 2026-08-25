@@ -2974,7 +2974,15 @@
       "filterable": 1
     }
   ],
-  "lives": [],
+  "lives": [
+    {
+      "name": "IPTV",
+      "type": 0,
+      "url": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
+      "epg": "",
+      "logo": ""
+    }
+  ],
   "parses": [
     {
       "name": "-聚合-",

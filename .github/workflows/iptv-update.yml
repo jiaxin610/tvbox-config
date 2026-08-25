@@ -1,9 +1,9 @@
-name: VOD Auto Refresh
+name: IPTV Network Scan
 
-# 定时拉取单仓点播并部署 Pages
+# 定时：远程订阅扫台测速 + 点播单仓 → 部署 Pages（不写本地源）
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: vod-update
+  group: iptv-update
   cancel-in-progress: true
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Build VOD publish/
+      - name: Network scan + build publish/
         env:
           PAGES_BASE: https://jiaxin610.github.io/tvbox-config
         run: node publish.mjs --build
@@ -41,7 +41,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "no publish changes"
           else
-            git commit -m "chore: auto-refresh VOD $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore: auto IPTV network scan $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
 

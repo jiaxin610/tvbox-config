@@ -12,6 +12,297 @@
       "indexs": 1
     },
     {
+      "key": "config",
+      "name": "🐲歌配置｜中心",
+      "type": 3,
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/pan-login.jar;md5;c96b69de5ace48bcf0e522147364e048",
+      "api": "csp_Config",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "配置中心",
+      "name": "❤配置｜中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "filterable": 1,
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
+    },
+    {
+      "key": "csp_wogg1",
+      "name": "🐲玩歌｜4K弹幕",
+      "type": 3,
+      "changeable": "0",
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/pan-login.jar;md5;c96b69de5ace48bcf0e522147364e048",
+      "ext": {
+        "site_urls": [
+          "https://woog.nxog.fun",
+          "https://woog.nxog.eu.org",
+          "https://woog.430520.xyz",
+          "https://woog.装歌.de5.net",
+          "https://ogkk.nxog.fun"
+        ],
+        "url_key": "wogg1",
+        "threadinfo": {
+          "chunksize": 414,
+          "threads": 16
+        }
+      },
+      "searchable": 1,
+      "timeout": 60
+    },
+    {
+      "key": "csp_woog2",
+      "name": "🐲装歌｜4K弹幕",
+      "type": 3,
+      "changeable": "0",
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/pan-login.jar;md5;c96b69de5ace48bcf0e522147364e048",
+      "ext": {
+        "site_urls": [
+          "https://ogkk.nxog.fun",
+          "https://ogkk.nxog.eu.org",
+          "https://ogkk.430520.xyz",
+          "https://ogkk.装歌.de5.net",
+          "https://woog.430520.xyz"
+        ],
+        "url_key": "woog2",
+        "threadinfo": {
+          "chunksize": 504,
+          "threads": 16
+        }
+      },
+      "searchable": 1,
+      "timeout": 60
+    },
+    {
+      "key": "夸快夸快",
+      "name": "❤夸快｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
+      "ext": {
+        "site": [
+          "https://ogkk.nxog.eu.org",
+          "https://ogkk.nxog.fun",
+          "https://woog.歌.de5.net"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "玩偶",
+      "name": "❤玩偶｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://woog.nxog.eu.org",
+          "https://woog.nxog.fun",
+          "https://ogkk.nxog.de5.net"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "蜡笔",
+      "name": "❤蜡笔｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "http://tvpanpan.site",
+          "http://feimo.fun",
+          "http://xiaocgege.shop",
+          "http://www.xiaocgege.shop",
+          "https://www.xiaocge.fun"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "至臻",
+      "name": "❤至臻｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://www.zhizhen8.click",
+          "https://www.zhizhen1.top",
+          "https://www.mihdr.top",
+          "https://www.miqk.cc"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "多多",
+      "name": "❤多多｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://tv.yydsys.top",
+          "https://tv.yydsys.cc",
+          "https://tv.214521.xyz"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "木偶",
+      "name": "❤木偶｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://123.666291.xyz",
+          "https://666.666291.xyz",
+          "https://www.muou.site",
+          "https://www.muou.asia"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "虎斑",
+      "name": "❤虎斑｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "http://xhban.xyz:20720",
+          "http://154.222.27.33:20720"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "二小",
+      "name": "❤二小｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://www.2xiaopan.top",
+          "https://2xiaopan.top",
+          "https://www.erxiaozhan.top",
+          "https://www.2xiaozhan.top",
+          "https://wexwp.cc"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "盘搜",
+      "name": "❤盘搜｜搜索",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "csp_Duopan",
+      "name": "[饭太硬]🖍︎┃蜡笔┃云盘",
+      "type": 3,
+      "api": "csp_Duopan",
+      "playerType": 2,
+      "filterable": 1,
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
+      "ext": "https://duopan.fun/",
+      "searchable": 1,
+      "timeout": 60
+    },
+    {
+      "key": "夸搜",
+      "name": "[饭太硬]🐌夸搜┃搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "pan": "quark",
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      },
+      "filterable": 1,
+      "timeout": 60
+    },
+    {
+      "key": "PanSou",
+      "name": "[饭太硬]📀盘搜┃搜索",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      },
+      "filterable": 1,
+      "timeout": 60
+    },
+    {
+      "key": "PanSearch",
+      "name": "[饭太硬]🏵️盘Se┃搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      },
+      "filterable": 1,
+      "timeout": 60
+    },
+    {
       "key": "豆瓣1",
       "name": "📢公告❤更新0824❤",
       "type": 3,
@@ -80,93 +371,6 @@
       "api": "http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js",
       "ext": "http://home.jundie.top:666/JS/dr_py/js/ddys.js",
       "filterable": 1
-    },
-    {
-      "key": "config",
-      "name": "🐲歌配置｜中心",
-      "type": 3,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/pan-login.jar;md5;c96b69de5ace48bcf0e522147364e048",
-      "api": "csp_Config",
-      "searchable": 0,
-      "filterable": 1
-    },
-    {
-      "key": "配置中心",
-      "name": "❤配置｜中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "csp_wogg1",
-      "name": "🐲玩歌｜4K弹幕",
-      "type": 3,
-      "changeable": "0",
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/pan-login.jar;md5;c96b69de5ace48bcf0e522147364e048",
-      "ext": {
-        "site_urls": [
-          "https://woog.nxog.fun",
-          "https://woog.nxog.eu.org",
-          "https://woog.430520.xyz",
-          "https://woog.装歌.de5.net",
-          "https://ogkk.nxog.fun"
-        ],
-        "url_key": "wogg1",
-        "threadinfo": {
-          "chunksize": 414,
-          "threads": 16
-        }
-      }
-    },
-    {
-      "key": "csp_woog2",
-      "name": "🐲装歌｜4K弹幕",
-      "type": 3,
-      "changeable": "0",
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/pan-login.jar;md5;c96b69de5ace48bcf0e522147364e048",
-      "ext": {
-        "site_urls": [
-          "https://ogkk.nxog.fun",
-          "https://ogkk.nxog.eu.org",
-          "https://ogkk.430520.xyz",
-          "https://ogkk.装歌.de5.net",
-          "https://woog.430520.xyz"
-        ],
-        "url_key": "woog2",
-        "threadinfo": {
-          "chunksize": 504,
-          "threads": 16
-        }
-      }
-    },
-    {
-      "key": "夸快夸快",
-      "name": "❤夸快｜4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
-      "ext": {
-        "site": [
-          "https://ogkk.nxog.eu.org",
-          "https://ogkk.nxog.fun",
-          "https://woog.歌.de5.net"
-        ]
-      }
     },
     {
       "key": "热播影视",
@@ -591,155 +795,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://xunlei8.me"
-    },
-    {
-      "key": "玩偶",
-      "name": "❤玩偶｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://woog.nxog.eu.org",
-          "https://woog.nxog.fun",
-          "https://ogkk.nxog.de5.net"
-        ]
-      },
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "蜡笔",
-      "name": "❤蜡笔｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://tvpanpan.site",
-          "http://feimo.fun",
-          "http://xiaocgege.shop",
-          "http://www.xiaocgege.shop",
-          "https://www.xiaocge.fun"
-        ]
-      },
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "至臻",
-      "name": "❤至臻｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://www.zhizhen8.click",
-          "https://www.zhizhen1.top",
-          "https://www.mihdr.top",
-          "https://www.miqk.cc"
-        ]
-      },
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "多多",
-      "name": "❤多多｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://tv.yydsys.top",
-          "https://tv.yydsys.cc",
-          "https://tv.214521.xyz"
-        ]
-      },
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "木偶",
-      "name": "❤木偶｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://123.666291.xyz",
-          "https://666.666291.xyz",
-          "https://www.muou.site",
-          "https://www.muou.asia"
-        ]
-      },
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "虎斑",
-      "name": "❤虎斑｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://xhban.xyz:20720",
-          "http://154.222.27.33:20720"
-        ]
-      },
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "二小",
-      "name": "❤二小｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://www.2xiaopan.top",
-          "https://2xiaopan.top",
-          "https://www.erxiaozhan.top",
-          "https://www.2xiaozhan.top",
-          "https://wexwp.cc"
-        ]
-      },
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
-      "key": "盘搜",
-      "name": "❤盘搜｜搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
     },
     {
       "key": "阿里云盘",
@@ -1878,7 +1933,7 @@
       "type": 3,
       "api": "csp_KmeiJu",
       "playerType": 2,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -1886,7 +1941,7 @@
       "name": "[饭太硬]🏳️┃素白┃影视",
       "type": 3,
       "api": "csp_SuBaiBai",
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -1895,7 +1950,7 @@
       "type": 3,
       "api": "csp_Ikan",
       "playerType": 2,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -1904,7 +1959,7 @@
       "type": 3,
       "api": "csp_FengGo",
       "playerType": 2,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -1913,7 +1968,7 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_Juqq",
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -1924,7 +1979,7 @@
       "playerType": 2,
       "filterable": 1,
       "ext": "",
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar"
     },
     {
       "key": "csp_Vidhub2",
@@ -1934,7 +1989,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar"
     },
     {
       "key": "csp_AppRZ",
@@ -1943,7 +1998,7 @@
       "playerType": "2",
       "api": "csp_AppRZ",
       "ext": "http://rzys.xyz/",
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -1954,7 +2009,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar"
     },
     {
       "key": "毛驴",
@@ -1964,7 +2019,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar"
     },
     {
       "key": "虎虎1",
@@ -1972,7 +2027,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "https://raw.liucn.cc/box/lib/%E8%99%8E%E8%99%8E.json",
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -1983,7 +2038,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar"
     },
     {
       "key": "csp_兄弟",
@@ -1997,23 +2052,13 @@
       "ext": "https://raw.liucn.cc/box/libs/hccx/%E5%85%84%E5%BC%9F.json"
     },
     {
-      "key": "csp_Duopan",
-      "name": "[饭太硬]🖍︎┃蜡笔┃云盘",
-      "type": 3,
-      "api": "csp_Duopan",
-      "playerType": 2,
-      "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
-      "ext": "https://duopan.fun/"
-    },
-    {
       "key": "荐片",
       "name": "[饭太硬]🎬┃荐片┃影视",
       "api": "csp_Jianpian",
       "type": 3,
       "playerType": "2",
       "ext": "http://api2.rinhome.com",
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e",
+      "jar": "https://raw.liucn.cc/box/libs/jar/Panda.jar",
       "filterable": 1
     },
     {
@@ -2151,22 +2196,6 @@
       "filterable": 1
     },
     {
-      "key": "夸搜",
-      "name": "[饭太硬]🐌夸搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "pan": "quark",
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      },
-      "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
       "key": "YiSo",
       "name": "[饭太硬]🎯易搜┃搜索",
       "type": 3,
@@ -2181,21 +2210,6 @@
       "filterable": 1
     },
     {
-      "key": "PanSou",
-      "name": "[饭太硬]📀盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      },
-      "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
-    },
-    {
       "key": "UpYun",
       "name": "[饭太硬]🌤️Up搜┃搜索",
       "type": 3,
@@ -2208,21 +2222,6 @@
         "from": "4k|auto"
       },
       "filterable": 1
-    },
-    {
-      "key": "PanSearch",
-      "name": "[饭太硬]🏵️盘Se┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      },
-      "filterable": 1,
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
     },
     {
       "key": "push_agent_1",
@@ -2309,7 +2308,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://raw.liucn.cc/box/libs/jar/P4.jar"
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
     },
     {
       "key": "P4_哔嘀",
@@ -2320,7 +2319,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://raw.liucn.cc/box/libs/jar/P4.jar"
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
     },
     {
       "key": "P4_皮皮虾",
@@ -2330,7 +2329,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://raw.liucn.cc/box/libs/jar/P4.jar"
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/888a64f65aab.jar;md5;888a64f65aab54892980ded5c6da9a6e"
     },
     {
       "key": "csp_MeiJu69",

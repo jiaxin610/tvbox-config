@@ -1,10 +1,9 @@
-name: IPTV Auto Update (HD/4K)
+name: VOD Auto Refresh
 
-# iptv-api 风格：定时采集订阅 → 筛高清/4K → 测速 → 部署 Pages
+# 定时拉取单仓点播并部署 Pages
 on:
   schedule:
-    # 每 6 小时（UTC）：北京时间 02/08/14/20 点
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: iptv-update
+  group: vod-update
   cancel-in-progress: true
 
 jobs:
@@ -29,7 +28,7 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Collect HD/4K lives + build publish/
+      - name: Build VOD publish/
         env:
           PAGES_BASE: https://jiaxin610.github.io/tvbox-config
         run: node publish.mjs --build
@@ -42,7 +41,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "no publish changes"
           else
-            git commit -m "chore: auto-update HD/4K IPTV $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore: auto-refresh VOD $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
 

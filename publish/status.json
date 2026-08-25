@@ -1,24 +1,32 @@
 {
-  "checkedAt": "2026-08-25T03:37:44.368Z",
-  "mode": "iptv-wishlist",
-  "subscribeCount": 0,
-  "wishlistCount": 52,
-  "wishlistMatched": 0,
-  "candidates": 0,
-  "urlsTotal": 0,
-  "urlsAlive": 0,
-  "urlsDead": 0,
-  "channelsAlive": 0,
-  "maxLatencyMs": 4500,
-  "maxAliveChannels": 120,
-  "prefer4K": true,
-  "minQuality": 1,
-  "fourKCount": 0,
-  "hdCount": 0,
-  "sdCount": 0,
-  "fetchReport": [],
-  "channelCount": 0,
+  "mode": "vod-only",
   "siteCount": 194,
-  "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-25T03:37:44.371Z"
+  "home": "TOP",
+  "warehouses": [
+    {
+      "name": "TOP",
+      "url": "https://tv.nxog.top/apitv.php?id=23"
+    },
+    {
+      "name": "饭太硬",
+      "url": "https://raw.liucn.cc/box/m.json"
+    },
+    {
+      "name": "运输车",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json"
+    },
+    {
+      "name": "俊于",
+      "url": "http://home.jundie.top:81/top98.json"
+    },
+    {
+      "name": "小米",
+      "url": "https://szyyds.cn/tv/x.json"
+    },
+    {
+      "name": "龙伊",
+      "url": "https://龙伊.top"
+    }
+  ],
+  "builtAt": "2026-08-25T03:41:37.965Z"
 }

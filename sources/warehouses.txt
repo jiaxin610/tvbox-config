@@ -1,6 +1,10 @@
+# 点播单仓（整份 TVBox JSON）
+# 格式：名称|配置地址
+# 发布时拉取 JSON，合并 sites/parses 到你的 config.json
+#
 TOP|https://tv.nxog.top/apitv.php?id=23
-TOP|https://raw.liucn.cc/box/m.json
-TOP|https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json
-TOP|http://home.jundie.top:81/top98.json
-TOP|https://szyyds.cn/tv/x.json
-TOP|https://龙伊.top
+饭太硬|https://raw.liucn.cc/box/m.json
+运输车|https://gh-proxy.com/raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json
+俊于|http://home.jundie.top:81/top98.json
+小米|https://szyyds.cn/tv/x.json
+龙伊|https://龙伊.top

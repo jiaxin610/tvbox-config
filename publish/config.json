@@ -53,7 +53,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0820/00/6f1e49c30e53b2af23c1598713e5e808.jpg;md5;367b30616fb382b237c4b9105e41d5f2",
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048",
       "ext": {
         "site": [
           "https://ogkk.nxog.eu.org",
@@ -71,7 +71,8 @@
       "quickSearch": 0,
       "filterable": 0,
       "timeout": 60,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "阿里云盘",
@@ -84,7 +85,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "夸克云盘",
@@ -97,7 +99,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "UC云盘",
@@ -110,7 +113,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "百度云盘",
@@ -123,7 +127,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "push_agent",
@@ -132,7 +137,8 @@
       "api": "csp_Push",
       "searchable": 0,
       "filterable": 0,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "玩偶_1",
@@ -148,7 +154,8 @@
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
       },
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "夸搜",
@@ -163,7 +170,8 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "七夜",
@@ -174,7 +182,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "Zhaozy",
@@ -185,7 +194,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$zhaoziyuan777$$$qqq111",
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "drpy_js_Alist",
@@ -194,7 +204,8 @@
       "api": "./libs/js/alist.min.js",
       "ext": "./libs/js/alist.json",
       "filterable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "AList",
@@ -204,7 +215,8 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "./libs/js/alist1.json",
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "csp_Alist",
@@ -236,7 +248,8 @@
         "🌨秋雨分享": "https://share.laowang.me",
         "💦讯维云盘": "https://pan.xwbeta.com"
       },
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "AliPS",
@@ -247,7 +260,8 @@
       "playerType": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "push_agent_2",
@@ -259,7 +273,8 @@
       "playerType": 1,
       "filterable": 1,
       "ext": "token;desc",
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "我的云盘",
@@ -275,7 +290,8 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "玩偶_2",
@@ -289,7 +305,8 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg;md5;c96b69de5ace48bcf0e522147364e048"
     },
     {
       "key": "豆瓣1",

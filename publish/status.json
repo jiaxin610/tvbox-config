@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-08-25T04:06:03.954Z",
+  "checkedAt": "2026-08-25T04:33:23.301Z",
   "mode": "iptv-wishlist",
   "subscribeCount": 6,
   "wishlistCount": 52,
   "wishlistMatched": 51,
   "candidates": 800,
-  "urlsTotal": 1602,
-  "urlsAlive": 981,
-  "urlsDead": 621,
+  "urlsTotal": 1588,
+  "urlsAlive": 1001,
+  "urlsDead": 587,
   "channelsAlive": 51,
   "maxLatencyMs": 4500,
   "maxAliveChannels": 120,
   "prefer4K": true,
   "minQuality": 1,
-  "fourKCount": 2,
+  "fourKCount": 3,
   "hdCount": 23,
   "sdCount": 0,
   "fetchReport": [
@@ -21,8 +21,8 @@
       "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "ok": true,
-      "parsed": 765,
-      "added": 757
+      "parsed": 763,
+      "added": 756
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
@@ -36,7 +36,7 @@
       "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
       "ok": true,
       "parsed": 200,
-      "added": 81
+      "added": 79
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
@@ -57,11 +57,11 @@
       "url": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u",
       "ok": true,
       "parsed": 309,
-      "added": 98
+      "added": 94
     }
   ],
   "channelCount": 51,
   "siteCount": 194,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-25T04:06:03.958Z"
+  "builtAt": "2026-08-25T04:33:23.304Z"
 }

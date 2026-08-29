@@ -1,49 +1,49 @@
 {
-  "checkedAt": "2026-08-25T10:27:09.672Z",
+  "checkedAt": "2026-08-29T05:26:04.664Z",
   "mode": "iptv-wishlist",
   "subscribeCount": 6,
   "wishlistCount": 52,
   "wishlistMatched": 51,
   "candidates": 800,
-  "urlsTotal": 1588,
-  "urlsAlive": 915,
-  "urlsDead": 673,
+  "urlsTotal": 1639,
+  "urlsAlive": 1004,
+  "urlsDead": 635,
   "channelsAlive": 51,
-  "maxLatencyMs": 4500,
+  "maxLatencyMs": 2800,
   "maxAliveChannels": 120,
   "prefer4K": true,
   "minQuality": 1,
-  "fourKCount": 4,
-  "hdCount": 21,
-  "sdCount": 0,
+  "fourKCount": 1,
+  "hdCount": 18,
+  "sdCount": 2,
   "fetchReport": [
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "ok": true,
-      "parsed": 763,
-      "added": 756
+      "parsed": 751,
+      "added": 744
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
       "ok": true,
       "parsed": 101,
-      "added": 80
+      "added": 72
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
       "ok": true,
-      "parsed": 200,
-      "added": 79
+      "parsed": 295,
+      "added": 157
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
       "ok": true,
       "parsed": 1223,
-      "added": 1029
+      "added": 997
     },
     {
       "name": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/央视.m3u",
@@ -57,11 +57,11 @@
       "url": "https://gh-proxy.com/raw.githubusercontent.com/bestK/iptv/main/卫视.m3u",
       "ok": true,
       "parsed": 309,
-      "added": 94
+      "added": 99
     }
   ],
   "channelCount": 51,
   "siteCount": 385,
   "livesUrl": "https://jiaxin610.github.io/tvbox-config/lives.m3u",
-  "builtAt": "2026-08-25T10:27:09.693Z"
+  "builtAt": "2026-08-29T05:26:04.671Z"
 }

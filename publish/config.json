@@ -855,8 +855,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
-      "timeout": 60
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
     },
     {
       "key": "夸克云盘",
@@ -870,8 +869,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
-      "timeout": 60
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
     },
     {
       "key": "UC云盘",
@@ -885,8 +883,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
-      "timeout": 60
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
     },
     {
       "key": "百度云盘",
@@ -900,8 +897,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
-      "timeout": 60
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
     },
     {
       "key": "养生堂",
@@ -1700,8 +1696,7 @@
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
       },
-      "filterable": 1,
-      "timeout": 60
+      "filterable": 1
     },
     {
       "key": "YGP",
@@ -6923,316 +6918,6 @@
   ],
   "ijk": [
     {
-      "group": "播放不断线(软解)",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        },
-        {
-          "category": 4,
-          "name": "packet-buffering",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "infbuf",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "25165824"
-        },
-        {
-          "category": 4,
-          "name": "min-frames",
-          "value": "100"
-        },
-        {
-          "category": 4,
-          "name": "first-high-water-mark-ms",
-          "value": "5000"
-        },
-        {
-          "category": 4,
-          "name": "next-high-water-mark-ms",
-          "value": "15000"
-        },
-        {
-          "category": 4,
-          "name": "last-high-water-mark-ms",
-          "value": "60000"
-        },
-        {
-          "category": 1,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_at_eof",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_streamed",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_on_network_error",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_delay_max",
-          "value": "60"
-        },
-        {
-          "category": 1,
-          "name": "timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "rw_timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "multiple_requests",
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "group": "播放不断线(硬解)",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        },
-        {
-          "category": 4,
-          "name": "packet-buffering",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "infbuf",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "25165824"
-        },
-        {
-          "category": 4,
-          "name": "min-frames",
-          "value": "100"
-        },
-        {
-          "category": 4,
-          "name": "first-high-water-mark-ms",
-          "value": "5000"
-        },
-        {
-          "category": 4,
-          "name": "next-high-water-mark-ms",
-          "value": "15000"
-        },
-        {
-          "category": 4,
-          "name": "last-high-water-mark-ms",
-          "value": "60000"
-        },
-        {
-          "category": 1,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_at_eof",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_streamed",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_on_network_error",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_delay_max",
-          "value": "60"
-        },
-        {
-          "category": 1,
-          "name": "timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "rw_timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "multiple_requests",
-          "value": "1"
-        }
-      ]
-    },
-    {
       "group": "软解码",
       "options": [
         {
@@ -7263,7 +6948,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "1"
+          "value": "0"
         },
         {
           "category": 1,
@@ -7309,81 +6994,6 @@
           "category": 1,
           "name": "dns_cache_timeout",
           "value": "600000000"
-        },
-        {
-          "category": 4,
-          "name": "packet-buffering",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "infbuf",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "25165824"
-        },
-        {
-          "category": 4,
-          "name": "min-frames",
-          "value": "100"
-        },
-        {
-          "category": 4,
-          "name": "first-high-water-mark-ms",
-          "value": "5000"
-        },
-        {
-          "category": 4,
-          "name": "next-high-water-mark-ms",
-          "value": "15000"
-        },
-        {
-          "category": 4,
-          "name": "last-high-water-mark-ms",
-          "value": "60000"
-        },
-        {
-          "category": 1,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_at_eof",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_streamed",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_on_network_error",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_delay_max",
-          "value": "60"
-        },
-        {
-          "category": 1,
-          "name": "timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "rw_timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "multiple_requests",
-          "value": "1"
         }
       ]
     },
@@ -7418,7 +7028,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "1"
+          "value": "0"
         },
         {
           "category": 1,
@@ -7464,81 +7074,6 @@
           "category": 1,
           "name": "dns_cache_timeout",
           "value": "600000000"
-        },
-        {
-          "category": 4,
-          "name": "packet-buffering",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "infbuf",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "25165824"
-        },
-        {
-          "category": 4,
-          "name": "min-frames",
-          "value": "100"
-        },
-        {
-          "category": 4,
-          "name": "first-high-water-mark-ms",
-          "value": "5000"
-        },
-        {
-          "category": 4,
-          "name": "next-high-water-mark-ms",
-          "value": "15000"
-        },
-        {
-          "category": 4,
-          "name": "last-high-water-mark-ms",
-          "value": "60000"
-        },
-        {
-          "category": 1,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_at_eof",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_streamed",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_on_network_error",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "reconnect_delay_max",
-          "value": "60"
-        },
-        {
-          "category": 1,
-          "name": "timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "rw_timeout",
-          "value": "60000000"
-        },
-        {
-          "category": 1,
-          "name": "multiple_requests",
-          "value": "1"
         }
       ]
     }

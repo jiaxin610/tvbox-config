@@ -6918,6 +6918,296 @@
   ],
   "ijk": [
     {
+      "group": "整集缓存(软解)",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "134217728"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "600"
+        },
+        {
+          "category": 4,
+          "name": "first-high-water-mark-ms",
+          "value": "30000"
+        },
+        {
+          "category": 4,
+          "name": "next-high-water-mark-ms",
+          "value": "120000"
+        },
+        {
+          "category": 4,
+          "name": "last-high-water-mark-ms",
+          "value": "1800000"
+        },
+        {
+          "category": 1,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_at_eof",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_streamed",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_delay_max",
+          "value": "30"
+        },
+        {
+          "category": 1,
+          "name": "timeout",
+          "value": "30000000"
+        },
+        {
+          "category": 1,
+          "name": "rw_timeout",
+          "value": "30000000"
+        }
+      ]
+    },
+    {
+      "group": "整集缓存(硬解)",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "134217728"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "600"
+        },
+        {
+          "category": 4,
+          "name": "first-high-water-mark-ms",
+          "value": "30000"
+        },
+        {
+          "category": 4,
+          "name": "next-high-water-mark-ms",
+          "value": "120000"
+        },
+        {
+          "category": 4,
+          "name": "last-high-water-mark-ms",
+          "value": "1800000"
+        },
+        {
+          "category": 1,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_at_eof",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_streamed",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_delay_max",
+          "value": "30"
+        },
+        {
+          "category": 1,
+          "name": "timeout",
+          "value": "30000000"
+        },
+        {
+          "category": 1,
+          "name": "rw_timeout",
+          "value": "30000000"
+        }
+      ]
+    },
+    {
       "group": "软解码",
       "options": [
         {
@@ -6994,6 +7284,66 @@
           "category": 1,
           "name": "dns_cache_timeout",
           "value": "600000000"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "134217728"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "600"
+        },
+        {
+          "category": 4,
+          "name": "first-high-water-mark-ms",
+          "value": "30000"
+        },
+        {
+          "category": 4,
+          "name": "next-high-water-mark-ms",
+          "value": "120000"
+        },
+        {
+          "category": 4,
+          "name": "last-high-water-mark-ms",
+          "value": "1800000"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_at_eof",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_streamed",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_delay_max",
+          "value": "30"
+        },
+        {
+          "category": 1,
+          "name": "timeout",
+          "value": "30000000"
+        },
+        {
+          "category": 1,
+          "name": "rw_timeout",
+          "value": "30000000"
         }
       ]
     },
@@ -7074,6 +7424,66 @@
           "category": 1,
           "name": "dns_cache_timeout",
           "value": "600000000"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "134217728"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "600"
+        },
+        {
+          "category": 4,
+          "name": "first-high-water-mark-ms",
+          "value": "30000"
+        },
+        {
+          "category": 4,
+          "name": "next-high-water-mark-ms",
+          "value": "120000"
+        },
+        {
+          "category": 4,
+          "name": "last-high-water-mark-ms",
+          "value": "1800000"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_at_eof",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_streamed",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "reconnect_delay_max",
+          "value": "30"
+        },
+        {
+          "category": 1,
+          "name": "timeout",
+          "value": "30000000"
+        },
+        {
+          "category": 1,
+          "name": "rw_timeout",
+          "value": "30000000"
         }
       ]
     }

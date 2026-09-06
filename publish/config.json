@@ -855,7 +855,8 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
+      "timeout": 60
     },
     {
       "key": "夸克云盘",
@@ -869,7 +870,8 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
+      "timeout": 60
     },
     {
       "key": "UC云盘",
@@ -883,7 +885,8 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
+      "timeout": 60
     },
     {
       "key": "百度云盘",
@@ -897,7 +900,8 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2"
+      "jar": "https://jiaxin610.github.io/tvbox-config/jar/spider.jar;md5;367b30616fb382b237c4b9105e41d5f2",
+      "timeout": 60
     },
     {
       "key": "养生堂",
@@ -1696,7 +1700,8 @@
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
       },
-      "filterable": 1
+      "filterable": 1,
+      "timeout": 60
     },
     {
       "key": "YGP",
@@ -6918,7 +6923,7 @@
   ],
   "ijk": [
     {
-      "group": "整集缓存(软解)",
+      "group": "播放不断线(软解)",
       "options": [
         {
           "category": 4,
@@ -6948,7 +6953,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "0"
+          "value": "1"
         },
         {
           "category": 1,
@@ -7008,27 +7013,27 @@
         {
           "category": 4,
           "name": "max-buffer-size",
-          "value": "134217728"
+          "value": "25165824"
         },
         {
           "category": 4,
           "name": "min-frames",
-          "value": "600"
+          "value": "100"
         },
         {
           "category": 4,
           "name": "first-high-water-mark-ms",
-          "value": "30000"
+          "value": "5000"
         },
         {
           "category": 4,
           "name": "next-high-water-mark-ms",
-          "value": "120000"
+          "value": "15000"
         },
         {
           "category": 4,
           "name": "last-high-water-mark-ms",
-          "value": "1800000"
+          "value": "60000"
         },
         {
           "category": 1,
@@ -7047,23 +7052,33 @@
         },
         {
           "category": 1,
+          "name": "reconnect_on_network_error",
+          "value": "1"
+        },
+        {
+          "category": 1,
           "name": "reconnect_delay_max",
-          "value": "30"
+          "value": "60"
         },
         {
           "category": 1,
           "name": "timeout",
-          "value": "30000000"
+          "value": "60000000"
         },
         {
           "category": 1,
           "name": "rw_timeout",
-          "value": "30000000"
+          "value": "60000000"
+        },
+        {
+          "category": 1,
+          "name": "multiple_requests",
+          "value": "1"
         }
       ]
     },
     {
-      "group": "整集缓存(硬解)",
+      "group": "播放不断线(硬解)",
       "options": [
         {
           "category": 4,
@@ -7093,7 +7108,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "0"
+          "value": "1"
         },
         {
           "category": 1,
@@ -7153,27 +7168,27 @@
         {
           "category": 4,
           "name": "max-buffer-size",
-          "value": "134217728"
+          "value": "25165824"
         },
         {
           "category": 4,
           "name": "min-frames",
-          "value": "600"
+          "value": "100"
         },
         {
           "category": 4,
           "name": "first-high-water-mark-ms",
-          "value": "30000"
+          "value": "5000"
         },
         {
           "category": 4,
           "name": "next-high-water-mark-ms",
-          "value": "120000"
+          "value": "15000"
         },
         {
           "category": 4,
           "name": "last-high-water-mark-ms",
-          "value": "1800000"
+          "value": "60000"
         },
         {
           "category": 1,
@@ -7192,18 +7207,28 @@
         },
         {
           "category": 1,
+          "name": "reconnect_on_network_error",
+          "value": "1"
+        },
+        {
+          "category": 1,
           "name": "reconnect_delay_max",
-          "value": "30"
+          "value": "60"
         },
         {
           "category": 1,
           "name": "timeout",
-          "value": "30000000"
+          "value": "60000000"
         },
         {
           "category": 1,
           "name": "rw_timeout",
-          "value": "30000000"
+          "value": "60000000"
+        },
+        {
+          "category": 1,
+          "name": "multiple_requests",
+          "value": "1"
         }
       ]
     },
@@ -7238,7 +7263,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "0"
+          "value": "1"
         },
         {
           "category": 1,
@@ -7298,27 +7323,32 @@
         {
           "category": 4,
           "name": "max-buffer-size",
-          "value": "134217728"
+          "value": "25165824"
         },
         {
           "category": 4,
           "name": "min-frames",
-          "value": "600"
+          "value": "100"
         },
         {
           "category": 4,
           "name": "first-high-water-mark-ms",
-          "value": "30000"
+          "value": "5000"
         },
         {
           "category": 4,
           "name": "next-high-water-mark-ms",
-          "value": "120000"
+          "value": "15000"
         },
         {
           "category": 4,
           "name": "last-high-water-mark-ms",
-          "value": "1800000"
+          "value": "60000"
+        },
+        {
+          "category": 1,
+          "name": "reconnect",
+          "value": "1"
         },
         {
           "category": 1,
@@ -7332,18 +7362,28 @@
         },
         {
           "category": 1,
+          "name": "reconnect_on_network_error",
+          "value": "1"
+        },
+        {
+          "category": 1,
           "name": "reconnect_delay_max",
-          "value": "30"
+          "value": "60"
         },
         {
           "category": 1,
           "name": "timeout",
-          "value": "30000000"
+          "value": "60000000"
         },
         {
           "category": 1,
           "name": "rw_timeout",
-          "value": "30000000"
+          "value": "60000000"
+        },
+        {
+          "category": 1,
+          "name": "multiple_requests",
+          "value": "1"
         }
       ]
     },
@@ -7378,7 +7418,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "0"
+          "value": "1"
         },
         {
           "category": 1,
@@ -7438,27 +7478,32 @@
         {
           "category": 4,
           "name": "max-buffer-size",
-          "value": "134217728"
+          "value": "25165824"
         },
         {
           "category": 4,
           "name": "min-frames",
-          "value": "600"
+          "value": "100"
         },
         {
           "category": 4,
           "name": "first-high-water-mark-ms",
-          "value": "30000"
+          "value": "5000"
         },
         {
           "category": 4,
           "name": "next-high-water-mark-ms",
-          "value": "120000"
+          "value": "15000"
         },
         {
           "category": 4,
           "name": "last-high-water-mark-ms",
-          "value": "1800000"
+          "value": "60000"
+        },
+        {
+          "category": 1,
+          "name": "reconnect",
+          "value": "1"
         },
         {
           "category": 1,
@@ -7472,18 +7517,28 @@
         },
         {
           "category": 1,
+          "name": "reconnect_on_network_error",
+          "value": "1"
+        },
+        {
+          "category": 1,
           "name": "reconnect_delay_max",
-          "value": "30"
+          "value": "60"
         },
         {
           "category": 1,
           "name": "timeout",
-          "value": "30000000"
+          "value": "60000000"
         },
         {
           "category": 1,
           "name": "rw_timeout",
-          "value": "30000000"
+          "value": "60000000"
+        },
+        {
+          "category": 1,
+          "name": "multiple_requests",
+          "value": "1"
         }
       ]
     }

@@ -3,8 +3,6 @@
 # 发布时：解密解析 → 写入 publish/config.json → jar/资源镜像到本仓库 Pages
 # APP 只订阅你自己的地址，不直接填下面这些仓
 #
-# TOP = 主仓（站点名原样保留，不加重前缀）
+# 先只用主仓 TOP，避免副仓规则/站点干扰网盘中途播放。
+# 需要更多站源时再取消下面注释。
 TOP|https://tv.nxog.top/apitv.php?id=23
-饭太硬|https://raw.liucn.cc/box/m.json
-俊于|http://home.jundie.top:81/top98.json
-小米|https://szyyds.cn/tv/x.json

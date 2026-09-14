@@ -1,0 +1,5 @@
+﻿电脑拉不下 TOP（路由器 DNS 查不到 / 公共 DNS 被污染）时：
+1. 用手机浏览器打开：https://tv.nxog.top/apitv.php?id=23
+2. 把整页内容保存成文件
+3. 传到电脑，改名为 TOP.json，放进本目录
+4. 再运行 publish.bat / node publish.mjs

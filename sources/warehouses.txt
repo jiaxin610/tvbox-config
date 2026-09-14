@@ -1,8 +1,5 @@
 # 点播单仓（整份 TVBox JSON）
-# 格式：名称|配置地址
-# APP 只填你自己的 Pages 地址（一个配置源）；下面这些是构建时拉取的上游仓
-#
-# TOP 主仓（DNS 偶发失败时会自动跳过，用下面副仓顶上）
+# APP 只填你自己的 Pages 地址（一个配置源）
 TOP|https://tv.nxog.top/apitv.php?id=23
 饭太硬|https://raw.liucn.cc/box/m.json
 俊于|http://home.jundie.top:81/top98.json

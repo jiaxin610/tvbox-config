@@ -1,2 +1,2 @@
-# 点播单仓：只拉 TOP（APP 配置地址仍只有你自己的 Pages）
-TOP|https://tv.nxog.top/apitv.php?id=23
+# 点播单仓：只拉下面这一份（APP 配置地址仍是你自己的 Pages）
+ONE|https://700sjro44343.vicp.fun/240731/one/

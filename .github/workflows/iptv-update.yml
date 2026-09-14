@@ -1,7 +1,7 @@
 name: IPTV Network Scan
 
 # 定时：远程订阅扫台测速 + 点播单仓 → 部署 Pages
-# Ubuntu 可解析 tv.nxog.top（本机路由器 DNS 常污染/查无）
+# 本机/GitHub 默认 DNS 常查不到 tv.nxog.top，prefetch 走 8.8.8.8/1.1.1.1
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -32,10 +32,23 @@ jobs:
       - name: Prefetch TOP warehouse (cache for DNS-hostile builders)
         run: |
           mkdir -p sources/cache
-          if curl -fsSL -A 'okhttp/3.15' --connect-timeout 20 --max-time 60 \
-            'https://tv.nxog.top/apitv.php?id=23' -o sources/cache/TOP.json; then
-            echo "TOP cache bytes=$(wc -c < sources/cache/TOP.json)"
-            head -c 120 sources/cache/TOP.json; echo
+          if node --input-type=module -e "
+            import { writeFile } from 'node:fs/promises';
+            import { fetchTextResilient } from './lib/dns.mjs';
+            const url = 'https://tv.nxog.top/apitv.php?id=23';
+            const r = await fetchTextResilient(url, {
+              headers: { 'User-Agent': 'okhttp/3.15', Accept: 'application/json,*/*' },
+              timeoutMs: 60000,
+            });
+            if (!r.ok || !r.text) {
+              console.error('TOP http_' + r.status);
+              process.exit(1);
+            }
+            await writeFile('sources/cache/TOP.json', r.text);
+            console.log('TOP cache bytes=' + Buffer.byteLength(r.text));
+            console.log(String(r.text).slice(0, 120));
+          "; then
+            echo "TOP prefetch ok"
           else
             echo "TOP live fetch failed; TOP-only is required, failing job"
             rm -f sources/cache/TOP.json

@@ -1,6 +1,2 @@
-# 点播单仓（整份 TVBox JSON）
-# APP 只填你自己的 Pages 地址（一个配置源）
+# 点播单仓：只拉 TOP（APP 配置地址仍只有你自己的 Pages）
 TOP|https://tv.nxog.top/apitv.php?id=23
-饭太硬|https://raw.liucn.cc/box/m.json
-俊于|http://home.jundie.top:81/top98.json
-小米|https://szyyds.cn/tv/x.json

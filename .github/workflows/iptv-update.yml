@@ -37,8 +37,9 @@ jobs:
             echo "TOP cache bytes=$(wc -c < sources/cache/TOP.json)"
             head -c 120 sources/cache/TOP.json; echo
           else
-            echo "TOP live fetch failed; will use secondary warehouses / existing cache"
+            echo "TOP live fetch failed; TOP-only is required, failing job"
             rm -f sources/cache/TOP.json
+            exit 1
           fi
 
       - name: Network scan + build publish/
